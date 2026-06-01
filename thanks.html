@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thank You | DuffleCraftCo</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+   :root {
+
+  /* ─── BRAND COLORS ───────────────────────────── */
+  --primary: #8b5e3c;
+  --primary-dark: #5c3b24;
+  --primary-light: #c89b72;
+
+  --accent: #d6b08d;
+
+  --white: #ffffff;
+
+  --light: #fbf8f5;
+  --cream: #f5efe8;
+  --cream-2: #ede2d6;
+
+  --sand: #dccbb8;
+
+  --charcoal: #2b2118;
+
+  --text: #3a2e25;
+  --text-light: #7b6b5d;
+
+  --grey: #6e6258;
+  --light-grey: #9b8d81;
+
+  /* ─── TYPOGRAPHY ─────────────────────────────── */
+  --font-display: 'Cormorant Garamond', serif;
+  --font-body: 'DM Sans', sans-serif;
+
+  /* ─── SHADOWS ────────────────────────────────── */
+  --shadow-sm: 0 2px 10px rgba(92, 59, 36, 0.08);
+
+  --shadow-md: 0 10px 30px rgba(92, 59, 36, 0.14);
+
+  --shadow-lg: 0 20px 60px rgba(92, 59, 36, 0.22);
+
+  /* ─── RADIUS ─────────────────────────────────── */
+  --radius: 8px;
+  --radius-lg: 18px;
+
+  /* ─── TRANSITIONS ────────────────────────────── */
+  --transition: 0.3s ease;
+}
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+     
+
+      font-family: var(--font-body);
+      color: var(--text);
+    }
+
+    .thankyou-card {
+      width: 100%;
+      max-width: 650px;
+      background: rgba(255,255,255,0.92);
+      backdrop-filter: blur(14px);
+      border-radius: var(--radius-lg);
+      padding: 60px 40px;
+      text-align: center;
+      box-shadow: var(--shadow-lg);
+      border: 1px solid rgba(75, 30, 109, 0.08);
+    }
+
+    .check-icon {
+      width: 90px;
+      height: 90px;
+      margin: 0 auto 24px;
+      border-radius: 50%;
+      background: linear-gradient(
+        135deg,
+        var(--primary),
+        var(--primary-dark)
+      );
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      color: white;
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+
+    h1 {
+      font-family: var(--font-display);
+      font-size: clamp(2.5rem, 5vw, 4rem);
+      margin-bottom: 18px;
+      color: var(--primary-dark);
+    }
+
+    p {
+      font-size: 1.05rem;
+      line-height: 1.8;
+      color: var(--text-light);
+      max-width: 500px;
+      margin: 0 auto 35px;
+    }
+
+    .home-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+
+      padding: 15px 34px;
+
+      background: var(--primary);
+      color: white;
+
+      text-decoration: none;
+      border-radius: 10px;
+
+      font-weight: 600;
+      letter-spacing: 0.03em;
+
+      transition: var(--transition);
+    }
+
+    .home-btn:hover {
+      background: var(--primary-dark);
+      transform: translateY(-2px);
+      box-shadow: 0 10px 30px rgba(75, 30, 109, 0.25);
+    }
+
+    .small-text {
+      margin-top: 24px;
+      font-size: 0.9rem;
+      color: #8a7ca0;
+    }
+
+    @media (max-width: 600px) {
+      .thankyou-card {
+        padding: 45px 24px;
+      }
+
+      p {
+        font-size: 0.98rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="thankyou-card">
+
+    <div class="check-icon">
+      ✓
+    </div>
+
+    <h1>Thank You!</h1>
+
+    <p>
+      Your inquiry has been successfully submitted.
+      Our team will review your message and get back to you within 24 hours.
+    </p>
+
+    <a href="index.html" class="home-btn">
+      ← Back to Home Page
+    </a>
+
+    <div class="small-text">
+      DuffleCraftCo — Premium Leather Goods
+    </div>
+
+  </div>
+
+</body>
+</html>

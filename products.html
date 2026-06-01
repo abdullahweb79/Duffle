@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products — DuffleCraftCo</title>
+  <meta name="description" content="Browse DuffleCraftCo's full range of premium handcrafted leather bags, jackets, and accessories exported from Sialkot, Pakistan.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ════════ NAVBAR ════════ -->
+<nav class="navbar">
+  <div class="nav-container">
+    <span class="nav-logo" onclick="location.href='index.html'">DuffleCraft<span>Co</span></span>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html"    data-page="home">Home</a></li>
+      <li><a href="products.html" data-page="products" class="active">Products</a></li>
+      <li><a href="index.html#about-section">About Us</a></li>
+      <li><a href="contact.html"  data-page="contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ════════ PAGE HERO ════════ -->
+<section class="page-hero">
+
+  <img src="img/hero-img.webp" alt="Leather Banner" class="page-hero-bg">
+
+  <div class="page-hero-overlay"></div>
+
+  <div class="page-hero-content">
+    <span class="section-tag">Our Collection</span>
+    <h1>Premium Leather Products</h1>
+    <p>
+      Explore our full range of handcrafted leather goods —
+      from executive bags to sport duffles.
+    </p>
+  </div>
+
+</section>
+
+<!-- ════════ PRODUCTS SECTION ════════ -->
+<section class="products-page">
+  <div class="section-container">
+
+    <!-- FILTER BAR -->
+    <div class="filter-bar">
+      <div class="filter-tabs" id="filter-tabs">
+        <span class="filter-tab active" data-cat="all">All</span>
+        <span class="filter-tab" data-cat="leather-duffle-bags">Leather Duffle Bags</span>
+        <span class="filter-tab" data-cat="duffle-bags">Duffle Bags</span>
+        <span class="filter-tab" data-cat="bags">Business & Crossbody Bags</span>
+        <span class="filter-tab" data-cat="accessories">Accessories</span>
+        <span class="filter-tab" data-cat="tactical-bags">Tactical Bags</span>
+        <span class="filter-tab" data-cat="bike-saddle-bags">Bike Saddle Bags</span>
+        <span class="filter-tab" data-cat="sports-bags">Sports Bags</span>
+       
+      </div>
+      <div class="search-wrap">
+        <input type="text" id="prod-search-input" placeholder="Search products..." onkeydown="if(event.key==='Enter')searchProducts()">
+        <button onclick="searchProducts()">🔍</button>
+      </div>
+    </div>
+
+    <!-- RESULTS INFO -->
+    <div class="results-info"><p id="results-info"></p></div>
+
+    <!-- PRODUCTS GRID (rendered by JS) -->
+    <div id="products-grid"></div>
+
+  </div>
+</section>
+
+
+<!-- ════════ FOOTER ════════ -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="footer-logo" onclick="location.href='index.html'">DuffleCraft<span>Co</span></span>
+      <p>Premium leather goods crafted in Pakistan, exported worldwide. Quality without compromise since 1999.</p>
+      <!-- Social Media Icons -->
+      <div class="footer-social">
+        <a href="https://www.instagram.com/dufflecraft_co?igsh=MXVzbTNweWoxc2szZA%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+            <circle cx="12" cy="12" r="4"/>
+            <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/>
+          </svg>
+          Instagram
+        </a>
+        <a href="https://www.linkedin.com/company/dufflecraft-co/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+            <rect x="2" y="9" width="4" height="12"/>
+            <circle cx="4" cy="4" r="2"/>
+          </svg>
+          LinkedIn
+        </a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Navigate</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Products</h4>
+      <ul>
+        <li><a href="products.html?category=leather-duffle-bags">Leather Duffle Bags</a></li>
+        <li><a href="products.html?category=bags">Business & Crossbody Bags</a></li>
+        <li><a href="products.html?category=accessories">Accessories</a></li>
+        <li><a href="products.html?category=sports-bags">Sports Bags</a></li>
+        <li><a href="products.html?category=tactical-bags">Tactical Bags</a></li>
+        <li><a href="products.html?category=bike-saddle-bags">Bike Saddle Bags</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <p>📧 info@dufflecraftco.com</p>
+      <p>📞 +92 327 006 1717</p>
+      <p>📍 Sialkot, Pakistan</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 DuffleCraftCo. All rights reserved. | Handcrafted with pride in Pakistan 🇵🇰</p>
+  </div>
+</footer>
+<!-- LIGHTBOX -->
+<div id="lightbox" class="lightbox-backdrop" onclick="closeLightbox()" aria-modal="true" role="dialog">
+  <div class="lightbox-box" onclick="event.stopPropagation()">
+    <img id="lightbox-img" src="" alt="">
+    <div class="lightbox-footer">
+      <span id="lightbox-title"></span>
+      <button class="lightbox-close" onclick="closeLightbox()">Close ✕</button>
+    </div>
+  </div>
+</div>
+<script src="js/main.js"></script>
+<script>
+  function searchProducts() {
+    const q = document.getElementById('prod-search-input')?.value || '';
+    renderProducts('all', q);
+  }
+</script>
+</body>
+</html>
