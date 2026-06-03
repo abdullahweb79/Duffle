@@ -3,185 +3,327 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Thank You | DuffleCraftCo</title>
 
+  <!-- ═══════════════════════════════════════════════
+       SEO META TAGS
+       NOTE: Thanks page is noindex — we don't want
+       Google indexing a confirmation page, but we
+       still add brand/OG tags for direct visits.
+  ═══════════════════════════════════════════════ -->
+  <title>Thank You for Your Inquiry | DuffleCraftCo — Leather Bags Manufacturer Pakistan</title>
+  <meta name="description" content="Thank you for contacting DuffleCraftCo. Your wholesale leather bag inquiry has been received. Our export team will respond within 24 hours. Premium leather goods manufacturer — Sialkot, Pakistan.">
+  <meta name="robots" content="noindex, follow">
+  <meta name="author" content="DuffleCraftCo">
+  <link rel="canonical" href="https://www.dufflecraftco.com/thanks.html">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="DuffleCraftCo">
+  <meta property="og:title" content="Thank You | DuffleCraftCo — Leather Bags Manufacturer Pakistan">
+  <meta property="og:description" content="Your inquiry has been received. DuffleCraftCo's export team will respond within 24 hours.">
+  <meta property="og:url" content="https://www.dufflecraftco.com/thanks.html">
+  <meta property="og:image" content="https://www.dufflecraftco.com/img/og-image.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="img/favicon.png?v=2">
+  <link rel="apple-touch-icon" href="img/favicon.png">
+  <meta name="theme-color" content="#8b5e3c">
+
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 
-  <style>
-   :root {
-
-  /* ─── BRAND COLORS ───────────────────────────── */
-  --primary: #8b5e3c;
-  --primary-dark: #5c3b24;
-  --primary-light: #c89b72;
-
-  --accent: #d6b08d;
-
-  --white: #ffffff;
-
-  --light: #fbf8f5;
-  --cream: #f5efe8;
-  --cream-2: #ede2d6;
-
-  --sand: #dccbb8;
-
-  --charcoal: #2b2118;
-
-  --text: #3a2e25;
-  --text-light: #7b6b5d;
-
-  --grey: #6e6258;
-  --light-grey: #9b8d81;
-
-  /* ─── TYPOGRAPHY ─────────────────────────────── */
-  --font-display: 'Cormorant Garamond', serif;
-  --font-body: 'DM Sans', sans-serif;
-
-  /* ─── SHADOWS ────────────────────────────────── */
-  --shadow-sm: 0 2px 10px rgba(92, 59, 36, 0.08);
-
-  --shadow-md: 0 10px 30px rgba(92, 59, 36, 0.14);
-
-  --shadow-lg: 0 20px 60px rgba(92, 59, 36, 0.22);
-
-  /* ─── RADIUS ─────────────────────────────────── */
-  --radius: 8px;
-  --radius-lg: 18px;
-
-  /* ─── TRANSITIONS ────────────────────────────── */
-  --transition: 0.3s ease;
-}
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
+  <!-- Schema — still useful for brand consistency -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Thank You | DuffleCraftCo",
+    "url": "https://www.dufflecraftco.com/thanks.html",
+    "description": "Inquiry confirmation page for DuffleCraftCo — Premium Leather Bags Manufacturer and Exporter, Sialkot, Pakistan.",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "DuffleCraftCo",
+      "url": "https://www.dufflecraftco.com"
     }
+  }
+  </script>
+
+  <style>
+    :root {
+      --primary:       #8b5e3c;
+      --primary-dark:  #5c3b24;
+      --primary-light: #c89b72;
+      --accent:        #d6b08d;
+      --white:         #ffffff;
+      --light:         #fbf8f5;
+      --cream:         #f5efe8;
+      --cream-2:       #ede2d6;
+      --sand:          #dccbb8;
+      --charcoal:      #2b2118;
+      --text:          #3a2e25;
+      --text-light:    #7b6b5d;
+      --font-display:  'Cormorant Garamond', serif;
+      --font-body:     'DM Sans', sans-serif;
+      --shadow-lg:     0 20px 60px rgba(92, 59, 36, 0.22);
+      --radius-lg:     18px;
+      --transition:    0.3s ease;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
 
     body {
       min-height: 100vh;
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
       padding: 24px;
-     
-
+      background: var(--light);
       font-family: var(--font-body);
       color: var(--text);
     }
 
     .thankyou-card {
       width: 100%;
-      max-width: 650px;
-      background: rgba(255,255,255,0.92);
+      max-width: 680px;
+      background: rgba(255,255,255,0.96);
       backdrop-filter: blur(14px);
       border-radius: var(--radius-lg);
-      padding: 60px 40px;
+      padding: 60px 48px;
       text-align: center;
       box-shadow: var(--shadow-lg);
-      border: 1px solid rgba(75, 30, 109, 0.08);
+      border: 1px solid rgba(139, 94, 60, 0.1);
     }
 
+    /* animated check circle */
     .check-icon {
       width: 90px;
       height: 90px;
-      margin: 0 auto 24px;
+      margin: 0 auto 28px;
       border-radius: 50%;
-      background: linear-gradient(
-        135deg,
-        var(--primary),
-        var(--primary-dark)
-      );
-
+      background: linear-gradient(135deg, var(--primary), var(--primary-dark));
       display: flex;
       align-items: center;
       justify-content: center;
-
       color: white;
-      font-size: 2.5rem;
+      font-size: 2.4rem;
       font-weight: bold;
+      animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+    }
+
+    @keyframes popIn {
+      from { transform: scale(0); opacity: 0; }
+      to   { transform: scale(1); opacity: 1; }
+    }
+
+    .brand-tag {
+      display: inline-block;
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--primary);
+      background: var(--cream);
+      padding: 5px 14px;
+      border-radius: 20px;
+      margin-bottom: 18px;
     }
 
     h1 {
       font-family: var(--font-display);
-      font-size: clamp(2.5rem, 5vw, 4rem);
-      margin-bottom: 18px;
+      font-size: clamp(2.4rem, 5vw, 3.8rem);
+      margin-bottom: 16px;
       color: var(--primary-dark);
+      line-height: 1.15;
     }
 
-    p {
+    .sub-text {
       font-size: 1.05rem;
       line-height: 1.8;
       color: var(--text-light);
-      max-width: 500px;
-      margin: 0 auto 35px;
+      max-width: 480px;
+      margin: 0 auto 36px;
+    }
+
+    /* what happens next steps */
+    .next-steps {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin: 0 auto 36px;
+      max-width: 420px;
+      text-align: left;
+    }
+
+    .step {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      padding: 14px 18px;
+      background: var(--cream);
+      border-radius: 10px;
+      font-size: 0.92rem;
+      color: var(--text);
+      line-height: 1.5;
+    }
+
+    .step-num {
+      width: 26px;
+      height: 26px;
+      min-width: 26px;
+      border-radius: 50%;
+      background: var(--primary);
+      color: white;
+      font-size: 0.78rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 1px;
+    }
+
+    .btn-group {
+      display: flex;
+      gap: 14px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 28px;
     }
 
     .home-btn {
       display: inline-flex;
       align-items: center;
       justify-content: center;
-
-      padding: 15px 34px;
-
+      padding: 14px 32px;
       background: var(--primary);
       color: white;
-
       text-decoration: none;
       border-radius: 10px;
-
       font-weight: 600;
+      font-size: 0.97rem;
       letter-spacing: 0.03em;
-
       transition: var(--transition);
     }
 
     .home-btn:hover {
       background: var(--primary-dark);
       transform: translateY(-2px);
-      box-shadow: 0 10px 30px rgba(75, 30, 109, 0.25);
+      box-shadow: 0 10px 28px rgba(92, 59, 36, 0.28);
     }
 
-    .small-text {
-      margin-top: 24px;
-      font-size: 0.9rem;
-      color: #8a7ca0;
+    .products-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 14px 32px;
+      background: transparent;
+      color: var(--primary);
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: 600;
+      font-size: 0.97rem;
+      border: 2px solid var(--primary);
+      transition: var(--transition);
+    }
+
+    .products-btn:hover {
+      background: var(--cream);
+      transform: translateY(-2px);
+    }
+
+    .divider {
+      width: 60px;
+      height: 2px;
+      background: var(--sand);
+      margin: 0 auto 20px;
+      border-radius: 2px;
+    }
+
+    .contact-strip {
+      font-size: 0.88rem;
+      color: var(--text-light);
+      line-height: 1.9;
+    }
+
+    .contact-strip a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .contact-strip a:hover {
+      text-decoration: underline;
+    }
+
+    .footer-brand-note {
+      margin-top: 28px;
+      font-size: 0.82rem;
+      color: var(--sand);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
     }
 
     @media (max-width: 600px) {
-      .thankyou-card {
-        padding: 45px 24px;
-      }
-
-      p {
-        font-size: 0.98rem;
-      }
+      .thankyou-card { padding: 44px 24px; }
+      .btn-group { flex-direction: column; align-items: center; }
+      .home-btn, .products-btn { width: 100%; max-width: 280px; }
     }
   </style>
 </head>
 
 <body>
 
-  <div class="thankyou-card">
+  <div class="thankyou-card" role="main" aria-labelledby="thanks-heading">
 
-    <div class="check-icon">
-      ✓
-    </div>
+    <div class="check-icon" aria-hidden="true">✓</div>
 
-    <h1>Thank You!</h1>
+    <span class="brand-tag">DuffleCraftCo · Sialkot, Pakistan</span>
 
-    <p>
+    <h1 id="thanks-heading">Thank You!</h1>
+
+    <p class="sub-text">
       Your inquiry has been successfully submitted.
-      Our team will review your message and get back to you within 24 hours.
+      Our export team will review your message and get back to you
+      <strong>within 24 hours</strong>.
     </p>
 
-    <a href="index.html" class="home-btn">
-      ← Back to Home Page
-    </a>
+    <!-- What Happens Next -->
+    <div class="next-steps" aria-label="What happens next">
+      <div class="step">
+        <span class="step-num" aria-hidden="true">1</span>
+        <span>Our team reviews your inquiry and prepares a tailored response.</span>
+      </div>
+      <div class="step">
+        <span class="step-num" aria-hidden="true">2</span>
+        <span>We'll email you pricing, MOQs, and lead times within 24 hours.</span>
+      </div>
+      <div class="step">
+        <span class="step-num" aria-hidden="true">3</span>
+        <span>Samples can be arranged before your bulk order is placed.</span>
+      </div>
+    </div>
 
-    <div class="small-text">
+    <div class="btn-group">
+      <a href="index.html" class="home-btn" aria-label="Back to DuffleCraftCo homepage">
+        ← Back to Home
+      </a>
+      <a href="products.html" class="products-btn" aria-label="Browse our leather products collection">
+        Browse Products
+      </a>
+    </div>
+
+    <div class="divider" aria-hidden="true"></div>
+
+    <div class="contact-strip">
+      Need urgent help? Reach us directly:<br>
+      📧 <a href="mailto:info@dufflecraftco.com">info@dufflecraftco.com</a>
+      &nbsp;·&nbsp;
+      📞 <a href="tel:+923270061717">+92 327 006 1717</a>
+    </div>
+
+    <div class="footer-brand-note" aria-label="DuffleCraftCo — Premium Leather Goods">
       DuffleCraftCo — Premium Leather Goods
     </div>
 

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://www.dufflecraftco.com/</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dufflecraftco.com/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dufflecraftco.com/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dufflecraftco.com/"/>
+    <image:image>
+      <image:loc>https://www.dufflecraftco.com/img/hero-img.webp</image:loc>
+      <image:title>DuffleCraftCo Premium Leather Bags — Sialkot Pakistan</image:title>
+      <image:caption>Premium handcrafted leather bags and accessories manufactured in Sialkot, Pakistan</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Products Page -->
+  <url>
+    <loc>https://www.dufflecraftco.com/products.html</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Products — Leather Duffle Bags -->
+  <url>
+    <loc>https://www.dufflecraftco.com/products.html?category=leather-duffle-bags</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Products — Business & Crossbody Bags -->
+  <url>
+    <loc>https://www.dufflecraftco.com/products.html?category=bags</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Products — Sports Bags -->
+  <url>
+    <loc>https://www.dufflecraftco.com/products.html?category=sports-bags</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Products — Tactical Bags -->
+  <url>
+    <loc>https://www.dufflecraftco.com/products.html?category=tactical-bags</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Products — Motorbike Saddle Bags -->
+  <url>
+    <loc>https://www.dufflecraftco.com/products.html?category=bike-saddle-bags</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Products — Accessories -->
+  <url>
+    <loc>https://www.dufflecraftco.com/products.html?category=accessories</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Contact Page -->
+  <url>
+    <loc>https://www.dufflecraftco.com/contact.html</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Thanks Page -->
+  <url>
+    <loc>https://www.dufflecraftco.com/thanks.html</loc>
+    <lastmod>2026-06-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+  </url>
+
+</urlset>

@@ -145,163 +145,163 @@ const PRODUCTS = [
   id: 11,
   name: 'Cross Body Bag',
   description: 'Robust canvas and leather duffle bag with multiple compartments for organized travel. Durable YKK zippers and brass hardware.',
-  category: 'bags',
+  category: 'crossbody-bags',
   featured: false,
   images: [
-    { src: 'img/Cross Body Bags/P(1.1)front.jpeg', label: 'Front' },
-    { src: 'img/Cross Body Bags/P(1.2)back.jpeg',  label: 'Back'  },
-    { src: 'img/Cross Body Bags/P(1.3)side.jpeg',  label: 'Side'  },
-    { src: 'img/Cross Body Bags/P(1.4)inner.jpeg', label: 'Inner' },
+    { src: 'img/Cross body bags/P(1.1)front.jpeg', label: 'Front' },
+    { src: 'img/Cross body bags/P(1.2)back.jpeg',  label: 'Back'  },
+    { src: 'img/Cross body bags/P(1.3)side.jpeg',  label: 'Side'  },
+    { src: 'img/Cross body bags/P(1.4)inner.jpeg', label: 'Inner' },
   ]
 },
 {
   id: 12,
   name: 'Cross Body Bag',
   description: 'Robust canvas and leather duffle bag with multiple compartments for organized travel. Durable YKK zippers and brass hardware.',
-  category: 'bags',
+  category: 'crossbody-bags',
   featured: false,
   images: [
-    { src: 'img/Cross Body Bags/P(2.1)front.jpeg', label: 'Front' },
-    { src: 'img/Cross Body Bags/P(2.2)back.jpeg',  label: 'Back'  },
-    { src: 'img/Cross Body Bags/P(2.3)side.jpeg',  label: 'Side'  },
-    { src: 'img/Cross Body Bags/P(2.4)inner.jpeg', label: 'Inner' },
+    { src: 'img/Cross body bags/P(2.1)front.jpeg', label: 'Front' },
+    { src: 'img/Cross body bags/P(2.2)back.jpeg',  label: 'Back'  },
+    { src: 'img/Cross body bags/P(2.3)side.jpeg',  label: 'Side'  },
+    { src: 'img/Cross body bags/P(2.4)inner.jpeg', label: 'Inner' },
   ]
 },
 {
   id: 13,
   name: 'Cross Body Bag',
   description: 'Robust canvas and leather duffle bag with multiple compartments for organized travel. Durable YKK zippers and brass hardware.',
-  category: 'bags',
+  category: 'crossbody-bags',
   featured: false,
   images: [
-    { src: 'img/Cross Body Bags/P(3.1)front.jpeg', label: 'Front' },
-    { src: 'img/Cross Body Bags/P(3.2)back.jpeg',  label: 'Back'  },
-    { src: 'img/Cross Body Bags/P(3.3)side.jpeg',  label: 'Side'  },
-    { src: 'img/Cross Body Bags/P(3.4)inner.jpeg', label: 'Inner' },
+    { src: 'img/Cross body bags/P(3.1)front.jpeg', label: 'Front' },
+    { src: 'img/Cross body bags/P(3.2)back.jpeg',  label: 'Back'  },
+    { src: 'img/Cross body bags/P(3.3)side.jpeg',  label: 'Side'  },
+    { src: 'img/Cross body bags/P(3.4)inner.jpeg', label: 'Inner' },
   ]
 },
 {
   id: 14,
   name: 'Cross Body Bag',
   description: 'Robust canvas and leather duffle bag with multiple compartments for organized travel. Durable YKK zippers and brass hardware.',
-  category: 'bags',
+  category: 'crossbody-bags',
   featured: false,
   images: [
-    { src: 'img/Cross Body Bags/P(4.1)front.jpeg', label: 'Front' },
-    { src: 'img/Cross Body Bags/P(4.2)back.jpeg',  label: 'Back'  },
-    { src: 'img/Cross Body Bags/P(4.3)side.jpeg',  label: 'Side'  },
-    { src: 'img/Cross Body Bags/P(4.4)inner.jpeg', label: 'Inner' },
+    { src: 'img/Cross body bags/P(4.1)front.jpeg', label: 'Front' },
+    { src: 'img/Cross body bags/P(4.2)back.jpeg',  label: 'Back'  },
+    { src: 'img/Cross body bags/P(4.3)side.jpeg',  label: 'Side'  },
+    { src: 'img/Cross body bags/P(4.4)inner.jpeg', label: 'Inner' },
   ]
 },
 {
   id: 15,
   name: 'Cross Body Bag',
   description: 'Robust canvas and leather duffle bag with multiple compartments for organized travel. Durable YKK zippers and brass hardware.',
-  category: 'bags',
+  category: 'crossbody-bags',
   featured: false,
   images: [
-    { src: 'img/Cross Body Bags/P(5.1)front.jpeg', label: 'Front' },
-    { src: 'img/Cross Body Bags/P(5.2)back.jpeg',  label: 'Back'  },
-    { src: 'img/Cross Body Bags/P(5.3)side.jpeg',  label: 'Side'  },
-    { src: 'img/Cross Body Bags/P(5.4)inner.jpeg', label: 'Inner' },
+    { src: 'img/Cross body bags/P(5.1)front.jpeg', label: 'Front' },
+    { src: 'img/Cross body bags/P(5.2)back.jpeg',  label: 'Back'  },
+    { src: 'img/Cross body bags/P(5.3)side.jpeg',  label: 'Side'  },
+    { src: 'img/Cross body bags/P(5.4)inner.jpeg', label: 'Inner' },
   ]
 },
 {
   id: 16,
   name: 'Cross Body Bag',
   description: 'Robust canvas and leather duffle bag with multiple compartments for organized travel. Durable YKK zippers and brass hardware.',
-  category: 'bags',
+  category: 'crossbody-bags',
   featured: false,
   images: [
-    { src: 'img/Cross Body Bags/P(6.1)front.jpeg', label: 'Front' },
-    { src: 'img/Cross Body Bags/P(6.2)back.jpeg',  label: 'Back'  },
-    { src: 'img/Cross Body Bags/P(6.3)side.jpeg',  label: 'Side'  },
-    { src: 'img/Cross Body Bags/P(6.4)inner.jpeg', label: 'Inner' },
+    { src: 'img/Cross body bags/P(6.1)front.jpeg', label: 'Front' },
+    { src: 'img/Cross body bags/P(6.2)back.jpeg',  label: 'Back'  },
+    { src: 'img/Cross body bags/P(6.3)side.jpeg',  label: 'Side'  },
+    { src: 'img/Cross body bags/P(6.4)inner.jpeg', label: 'Inner' },
   ]
 },
 {
   id: 17,
   name: 'Cross Body Bag',
   description: 'Robust canvas and leather duffle bag with multiple compartments for organized travel. Durable YKK zippers and brass hardware.',
-  category: 'bags',
+  category: 'crossbody-bags',
   featured: false,
   images: [
-    { src: 'img/Cross Body Bags/P(7.1)front.jpeg', label: 'Front' },
-    { src: 'img/Cross Body Bags/P(7.2)back.jpeg',  label: 'Back'  },
-    { src: 'img/Cross Body Bags/P(7.3)side.jpeg',  label: 'Side'  },
-    { src: 'img/Cross Body Bags/P(7.4)inner.jpeg', label: 'Inner' },
+    { src: 'img/Cross body bags/P(7.1)front.jpeg', label: 'Front' },
+    { src: 'img/Cross body bags/P(7.2)back.jpeg',  label: 'Back'  },
+    { src: 'img/Cross body bags/P(7.3)side.jpeg',  label: 'Side'  },
+    { src: 'img/Cross body bags/P(7.4)inner.jpeg', label: 'Inner' },
   ]
 },
 {
   id: 18,
   name: 'Cross Body Bag',
   description: 'Robust canvas and leather duffle bag with multiple compartments for organized travel. Durable YKK zippers and brass hardware.',
-  category: 'bags',
+  category: 'crossbody-bags',
   featured: false,
   images: [
-    { src: 'img/Cross Body Bags/P(8.1)front.jpeg', label: 'Front' },
-    { src: 'img/Cross Body Bags/P(8.2)back.jpeg',  label: 'Back'  },
-    { src: 'img/Cross Body Bags/P(8.3)side.jpeg',  label: 'Side'  },
-    { src: 'img/Cross Body Bags/P(8.4)inner.jpeg', label: 'Inner' },
+    { src: 'img/Cross body bags/P(8.1)front.jpeg', label: 'Front' },
+    { src: 'img/Cross body bags/P(8.2)back.jpeg',  label: 'Back'  },
+    { src: 'img/Cross body bags/P(8.3)side.jpeg',  label: 'Side'  },
+    { src: 'img/Cross body bags/P(8.4)inner.jpeg', label: 'Inner' },
   ]
 },
 {
   id: 19,
   name: 'Cross Body Bag',
   description: 'Robust canvas and leather duffle bag with multiple compartments for organized travel. Durable YKK zippers and brass hardware.',
-  category: 'bags',
+  category: 'crossbody-bags',
   featured: false,
   images: [
-    { src: 'img/Cross Body Bags/P(9.1)front.jpeg', label: 'Front' },
-    { src: 'img/Cross Body Bags/P(9.2)back.jpeg',  label: 'Back'  },
-    { src: 'img/Cross Body Bags/P(9.3)side.jpeg',  label: 'Side'  },
-    { src: 'img/Cross Body Bags/P(9.4)inner.jpeg', label: 'Inner' },
+    { src: 'img/Cross body bags/P(9.1)front.jpeg', label: 'Front' },
+    { src: 'img/Cross body bags/P(9.2)back.jpeg',  label: 'Back'  },
+    { src: 'img/Cross body bags/P(9.3)side.jpeg',  label: 'Side'  },
+    { src: 'img/Cross body bags/P(9.4)inner.jpeg', label: 'Inner' },
   ]
 },
 {
   id: 20,
   name: 'Cross Body Bag',
   description: 'Robust canvas and leather duffle bag with multiple compartments for organized travel. Durable YKK zippers and brass hardware.',
-  category: 'bags',
+  category: 'crossbody-bags',
   featured: false,
   images: [
-    { src: 'img/Cross Body Bags/P(10.1)front.jpeg', label: 'Front' },
-    { src: 'img/Cross Body Bags/P(10.2)back.jpeg',  label: 'Back'  },
-    { src: 'img/Cross Body Bags/P(10.3)side.jpeg',  label: 'Side'  },
-    { src: 'img/Cross Body Bags/P(10.4)inner.jpeg', label: 'Inner' },
+    { src: 'img/Cross body bags/P(10.1)front.jpeg', label: 'Front' },
+    { src: 'img/Cross body bags/P(10.2)back.jpeg',  label: 'Back'  },
+    { src: 'img/Cross body bags/P(10.3)side.jpeg',  label: 'Side'  },
+    { src: 'img/Cross body bags/P(10.4)inner.jpeg', label: 'Inner' },
   ]
 },
 {
   id: 21,
   name: 'Cross Body Bag',
   description: 'Robust canvas and leather duffle bag with multiple compartments for organized travel. Durable YKK zippers and brass hardware.',
-  category: 'bags',
+  category: 'crossbody-bags',
   featured: false,
   images: [
-    { src: 'img/Cross Body Bags/P(11.1)front.jpeg', label: 'Front' },
-    { src: 'img/Cross Body Bags/P(11.2)back.jpeg',  label: 'Back'  },
-    { src: 'img/Cross Body Bags/P(11.3)side.jpeg',  label: 'Side'  },
-    { src: 'img/Cross Body Bags/P(11.4)inner.jpeg', label: 'Inner' },
+    { src: 'img/Cross body bags/P(11.1)front.jpeg', label: 'Front' },
+    { src: 'img/Cross body bags/P(11.2)back.jpeg',  label: 'Back'  },
+    { src: 'img/Cross body bags/P(11.3)side.jpeg',  label: 'Side'  },
+    { src: 'img/Cross body bags/P(11.4)inner.jpeg', label: 'Inner' },
   ]
 },
 {
   id: 22,
   name: 'Cross Body Bag',
   description: 'Robust canvas and leather duffle bag with multiple compartments for organized travel. Durable YKK zippers and brass hardware.',
-  category: 'bags',
+  category: 'crossbody-bags',
   featured: false,
   images: [
-    { src: 'img/Cross Body Bags/P(12.1)front.jpeg.png', label: 'Front' },
-    { src: 'img/Cross Body Bags/P(12.2)back.jpeg.png',  label: 'Back'  },
-    { src: 'img/Cross Body Bags/P(12.3)side.jpeg.png',  label: 'Side'  },
-    { src: 'img/Cross Body Bags/P(12.4)inner.jpeg.png', label: 'Inner' },
+    { src: 'img/Cross body bags/P(12.1)front.jpeg.png', label: 'Front' },
+    { src: 'img/Cross body bags/P(12.2)back.jpeg.png',  label: 'Back'  },
+    { src: 'img/Cross body bags/P(12.3)side.jpeg.png',  label: 'Side'  },
+    { src: 'img/Cross body bags/P(12.4)inner.jpeg.png', label: 'Inner' },
   ]
 },
 {
   id: 23,
   name: 'Business Bag',
   description: 'Robust canvas and leather duffle bag with multiple compartments for organized travel. Durable YKK zippers and brass hardware.',
-  category: 'bags',
+  category: 'business-bags',
   featured: false,
   images: [
     { src: 'img/Business bags/P(1.1).jpeg', label: 'Front' },
@@ -314,7 +314,7 @@ const PRODUCTS = [
   id: 24,
   name: 'Business Bag',
   description: 'Robust canvas and leather duffle bag with multiple compartments for organized travel. Durable YKK zippers and brass hardware.',
-  category: 'bags',
+  category: 'business-bags',
   featured: false,
   images: [
     { src: 'img/Business bags/P(2.1)top.jpeg', label: 'Top' },
@@ -327,7 +327,7 @@ const PRODUCTS = [
   id: 25,
   name: 'Business Bag',
   description: 'Robust canvas and leather duffle bag with multiple compartments for organized travel. Durable YKK zippers and brass hardware.',
-  category: 'bags',
+  category: 'business-bags',
   featured: false,
   images: [
     { src: 'img/Business bags/P(3.1)Front.jpeg', label: 'Front' },
@@ -340,7 +340,7 @@ const PRODUCTS = [
   id: 26,
   name: 'Business Bag',
   description: 'Robust canvas and leather duffle bag with multiple compartments for organized travel. Durable YKK zippers and brass hardware.',
-  category: 'bags',
+  category: 'business-bags',
   featured: false,
   images: [
     { src: 'img/Business bags/P(4.1)front.jpeg', label: 'Front' },
@@ -353,7 +353,7 @@ const PRODUCTS = [
   id: 27,
   name: 'Business Bag',
   description: 'Robust canvas and leather duffle bag with multiple compartments for organized travel. Durable YKK zippers and brass hardware.',
-  category: 'bags',
+  category: 'business-bags',
   featured: false,
   images: [
     { src: 'img/Business bags/P(5.1)front.jpeg', label: 'Front' },
@@ -366,7 +366,7 @@ const PRODUCTS = [
   id: 28,
   name: 'Business Bag',
   description: 'Robust canvas and leather duffle bag with multiple compartments for organized travel. Durable YKK zippers and brass hardware.',
-  category: 'bags',
+  category: 'business-bags',
   featured: false,
   images: [
     { src: 'img/Business bags/P(6.1)top.jpeg', label: 'Top' },
@@ -379,7 +379,7 @@ const PRODUCTS = [
   id: 29,
   name: 'Business Bag',
   description: 'Robust canvas and leather duffle bag with multiple compartments for organized travel. Durable YKK zippers and brass hardware.',
-  category: 'bags',
+  category: 'business-bags',
   featured: false,
   images: [
     { src: 'img/Business bags/P(7.1)top.jpeg', label: 'Top' },
@@ -392,7 +392,7 @@ const PRODUCTS = [
   id: 30,
   name: 'Business Bag',
   description: 'Robust canvas and leather duffle bag with multiple compartments for organized travel. Durable YKK zippers and brass hardware.',
-  category: 'bags',
+  category: 'business-bags',
   featured: false,
   images: [
     { src: 'img/Business bags/P(8.1)front.jpeg', label: 'Front' },
@@ -1513,13 +1513,14 @@ const PRODUCTS = [
 ];
 
 const CATEGORIES = [
-  { slug: 'leather-duffle-bags', label: 'Leather Duffle Bags', icon: '👜' },
-  { slug: 'duffle-bags',         label: 'Duffle Bags',         icon: '🎒' },
-  { slug: 'bags',         label: 'Business & Cross Body Bags',         icon: '💼' },
-  { slug: 'accessories',         label: 'Accessories',         icon: '👛' },
-  { slug: 'sports-bags',         label: 'Sports Bags',         icon: '⚽' },
-  { slug: 'bike-saddle-bags',         label: 'Bike Saddle Bags',         icon: '🚴' },
-  { slug: 'tactical-bags',         label: 'Tactical Bags',         icon: '👜' }
+  { slug: 'leather-duffle-bags', label: 'Leather Duffle Bags', icon: 'shopping-bag' },
+  { slug: 'duffle-bags', label: 'Duffle Bags', icon: 'briefcase' },
+  { slug: 'business-bags', label: 'Business Bags', icon: 'briefcase' },
+  { slug: 'crossbody-bags', label: 'Crossbody Bags', icon: 'shopping-bag' },
+  { slug: 'accessories', label: 'Accessories', icon: 'wallet' },
+  { slug: 'sports-bags', label: 'Sports Bags', icon: 'zap' },
+  { slug: 'bike-saddle-bags', label: 'MotorBike Saddle Bags', icon: 'bike' },
+  { slug: 'tactical-bags', label: 'Tactical Bags', icon: 'shield' }
 ];
 
 // ─── NAVIGATION HELPER ───────────────────────────────
@@ -1563,16 +1564,24 @@ function initNav() {
 // ─── HOME PAGE ────────────────────────────────────────
 function initHomePage() {
   // Categories grid
-  const catGrid = document.getElementById('home-cat-grid');
-  if (catGrid) {
-    catGrid.innerHTML = CATEGORIES.map(cat => `
-      <div class="cat-card" data-reveal onclick="app.navigate('products',{category:'${cat.slug}'})">
-        <div class="cat-icon">${cat.icon}</div>
-        <h3>${cat.label}</h3>
-        <span class="cat-arrow">→</span>
-      </div>
-    `).join('');
-  }
+const catGrid = document.getElementById('home-cat-grid');
+
+if (catGrid) {
+  catGrid.innerHTML = CATEGORIES.map(cat => `
+    <div class="cat-card" data-reveal
+      onclick="app.navigate('products', { category: '${cat.slug}' })">
+
+      <div class="cat-icon" data-lucide="${cat.icon}"></div>
+
+      <h3>${cat.label}</h3>
+      <span class="cat-arrow">→</span>
+
+    </div>
+  `).join('');
+
+  lucide.createIcons();
+}
+
 
   // Featured products
   const featGrid = document.getElementById('home-featured-grid');
