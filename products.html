@@ -461,7 +461,43 @@
     border: 0;
   }
 </style>
+<!-- ── PRODUCT DETAIL MODAL ───────────────────────────── -->
+<div id="product-modal-backdrop" class="pm-backdrop" style="display:none">
+  <div id="product-modal" class="pm-modal" role="dialog" aria-modal="true">
 
+    <!-- Close -->
+    <button class="pm-close" onclick="closeProductModal()">✕</button>
+
+    <div class="pm-body">
+
+      <!-- Left: Gallery -->
+      <div class="pm-gallery">
+        <div class="pm-main-wrap">
+          <button class="pm-arrow pm-prev">&#8592;</button>
+          <img class="pm-main-img" src="" alt="" onerror="this.src='img/placeholder.svg'">
+          <button class="pm-arrow pm-next">&#8594;</button>
+        </div>
+        <div class="pm-angle-label"></div>
+        <div class="pm-thumbs"></div>
+      </div>
+
+      <!-- Right: Info -->
+      <div class="pm-info">
+        <span class="pm-cat"></span>
+        <h2 class="pm-title"></h2>
+        <p class="pm-desc"></p>
+        <div class="pm-footer">
+          <span class="pm-price"></span>
+          <div class="pm-actions">
+            <button class="btn btn-primary pm-order-btn">Order Now</button>
+            <button class="btn btn-outline pm-inquire-btn">Inquire →</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
 <script src="js/main.js"></script>
 <script>
   function searchProducts() {
