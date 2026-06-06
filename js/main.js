@@ -396,7 +396,7 @@ const PRODUCTS = [
     name: 'Heritage Stitch Brown Top-Grain Cowhide Leather Belt with Antique Brass Square Buckle',
     description: 'The Heritage Stitch is a handcrafted brown leather belt built for the man who appreciates traditional craftsmanship in every detail. Cut from top-grain cowhide leather with a firm, full-bodied hand feel that holds its shape through years of daily wear. Contrasting white edge stitching runs the full length of the belt, framing the rich brown hide with a classic Western-inspired detail that works equally well with denim, chinos, or leather trousers. The antique brass square buckle adds a warm, vintage tone that complements the cognac leather perfectly. Five pre-punched holes with reinforced eyelets ensure a precise, lasting fit. Width: 3.8 cm (1.5 in). Available sizes: 28–46. Finish: antique brass hardware. A belt that gets better with every wear.',
     category: 'accessories',
-    price: '$55',
+    
     featured: false,
     image: 'img/Belts/WhatsApp Image 2026-05-06 at 17.49.23.jpeg'
   },
@@ -405,7 +405,7 @@ const PRODUCTS = [
     name: 'Classico Tan Smooth Top-Grain Cowhide Leather Dress Belt with Silver Pin Buckle',
     description: 'The Classico Tan is the essential leather dress belt — clean, smooth, and perfectly proportioned for both formal and smart-casual wear. Crafted from top-grain cowhide leather in a warm tan with a polished smooth finish that pairs seamlessly with navy suits, beige chinos, or brown leather shoes. The slim silver pin buckle sits flush and understated, keeping the overall look sharp and refined without distraction. The supple yet firm leather body lies flat through belt loops and maintains its shape without curling or creasing over time. Five reinforced punch holes ensure a precise fit. Width: 3.5 cm (1.4 in). Available sizes: 28–46. A wardrobe essential for the well-dressed man.',
     category: 'accessories',
-    price: '$55',
+   
     featured: false,
     image: 'img/Belts/WhatsApp Image 2026-05-06 at 17.49.24.jpeg'
   },
@@ -414,7 +414,7 @@ const PRODUCTS = [
     name: 'Garrison Black Studded Top-Grain Cowhide Leather Belt with Silver Rectangular Buckle',
     description: 'The Garrison is a bold black leather belt that commands attention through its distinctive studded detailing and sharp silver rectangular buckle. Crafted from top-grain cowhide leather in a deep, near-black finish with precisely spaced stud accents along the outer edge — adding texture and edge to an otherwise classic silhouette. The silver rectangular frame buckle provides a modern, industrial contrast against the dark hide. Built with reinforced stitching throughout and a firm leather body that holds structure through daily use. Five precision-punched holes with hardened eyelets ensure a secure, lasting fit. Width: 3.8 cm (1.5 in). Available sizes: 28–46. For the rider and the rebel alike.',
     category: 'accessories',
-    price: '$55',
+
     featured: false,
     image: 'img/Belts/WhatsApp Image 2026-05-06 at 17.49.25 (1).jpeg'
   },
@@ -423,7 +423,7 @@ const PRODUCTS = [
     name: 'Regent Dark Brown Top-Grain Cowhide Leather Belt with Brushed Silver Square Buckle',
     description: 'The Regent is a distinguished dark brown leather belt designed for the professional wardrobe. Cut from top-grain cowhide leather with a smooth, deep chocolate finish that coordinates effortlessly with dark denim, charcoal suits, and formal trousers. The brushed silver square buckle provides a contemporary matte finish that reads as polished without being flashy — the mark of genuinely good taste. The firm leather body lies perfectly flat through belt loops and resists the creasing and curling that affect lower-quality alternatives. Reinforced stitching throughout and five precision-punched holes with hardened eyelets for a precise, durable fit. Width: 3.8 cm (1.5 in). Available sizes: 28–46. Built for the boardroom and beyond.',
     category: 'accessories',
-    price: '$55',
+ 
     featured: false,
     image: 'img/Belts/WhatsApp Image 2026-05-06 at 17.49.25 (2).jpeg'
   },
@@ -432,7 +432,7 @@ const PRODUCTS = [
     name: 'Baton Brown Top-Grain Cowhide Leather Belt with Silver Centre-Bar Square Buckle',
     description: 'The Baton is a clean, well-proportioned dark brown leather belt finished with a classic silver centre-bar square buckle — a timeless hardware choice that transitions effortlessly between smart-casual and formal occasions. Crafted from top-grain cowhide leather with a smooth finish and firm body that maintains its structure and shape through years of regular wear. The centre-bar buckle design allows for quick, easy adjustment without the bulk of a frame buckle, making this one of the most practical and versatile belts in the collection. Reinforced stitching throughout and five precision-punched holes for a confident, lasting fit. Width: 3.8 cm (1.5 in). Available sizes: 28–46. A belt that quietly does everything right.',
     category: 'accessories',
-    price: '$55',
+   
     featured: false,
     image: 'img/Belts/WhatsApp Image 2026-05-06 at 17.49.25.jpeg'
   },
@@ -441,7 +441,7 @@ const PRODUCTS = [
     name: 'Saddle Stitch Tan Top-Grain Cowhide Leather Belt with Double Edge Stitching & Brass Buckle',
     description: 'The Saddle Stitch is a heritage-crafted tan leather belt that showcases traditional saddlery detailing in an everyday wearable format. Crafted from top-grain cowhide leather and finished with double-row white edge stitching along both sides — a technique borrowed from fine equestrian leatherwork that adds both structural reinforcement and refined visual character. The warm tan colour sits beautifully with cream, camel, olive, and navy clothing palettes. A solid brass pin buckle complements the natural leather tone, while the firm, flat body ensures the belt lies cleanly through every loop. Five reinforced punch holes with hardened eyelets for a precise, enduring fit. Width: 3.8 cm (1.5 in). Available sizes: 28–46. A craftsmans belt for everyday wear.',
     category: 'accessories',
-    price: '$55',
+  
     featured: true,
     image: 'img/Belts/WhatsApp Image 2026-05-06 at 17.49.26.jpeg'
   },
@@ -450,7 +450,7 @@ const PRODUCTS = [
     name: 'Piazza Brown Slim Top-Grain Cowhide Leather Dress Belt with Minimal Brass Pin Buckle',
     description: 'The Piazza Brown is a slim, refined leather dress belt designed for the man whose style philosophy is rooted in quiet confidence and impeccable fit. Cut from top-grain cowhide leather in a warm medium brown with a smooth, unblemished finish that pairs with everything from a three-piece suit to tailored weekend chinos. The slim brass pin buckle is intentionally understated — small in scale, perfectly positioned, and finished in warm gold that harmonises with the leather tone. The narrow profile and clean, unembellished surface make this the ideal choice for formal occasions and professional settings. Five precision-punched holes for a tailored fit. Width: 3.2 cm (1.25 in). Available sizes: 28–46. Elegance through restraint.',
     category: 'accessories',
-    price: '$55',
+    
     featured: false,
     image: 'img/Belts/WhatsApp Image 2026-05-06 at 17.49.27.jpeg'
   },
@@ -459,7 +459,7 @@ const PRODUCTS = [
     name: 'Frontier Distressed Brown Top-Grain Cowhide Leather Belt with Antique Brass Buckle',
     description: 'The Frontier is a hand-distressed brown leather belt for the man who values character over perfection. Crafted from top-grain cowhide leather with an intentional antiqued and worn-in surface treatment that gives the belt a one-of-a-kind, lived-in quality from day one. The irregular tone variation, subtle surface creasing, and burnished edges all signal genuine leather quality and artisan process. The antique brass buckle — warm in tone with a deliberately aged finish — completes the vintage aesthetic. The belt body is firm and durable despite its distressed exterior, maintaining structure through daily use. Five reinforced punch holes for a confident fit. Width: 3.8 cm (1.5 in). Available sizes: 28–46. Built to look better the more you wear it.',
     category: 'accessories',
-    price: '$55',
+    
     featured: false,
     image: 'img/Belts/WhatsApp Image 2026-05-06 at 17.49.29.jpeg'
   },
@@ -468,7 +468,7 @@ const PRODUCTS = [
     name: 'Gaucho Wide Brown Top-Grain Cowhide Leather Statement Belt with Large Antique Gold Buckle',
     description: 'The Gaucho is a wide-cut, statement leather belt that draws its inspiration from South American gaucho and Western traditions — bold, confident, and unapologetically premium. Crafted from top-grain cowhide leather in a rich warm brown with a wide body that commands presence on any outfit. The oversized antique gold buckle is the centrepiece — a heavy, substantial piece of brass hardware with a warm aged finish that anchors the belt\'s bold character. This is not a belt that hides — it is worn with pride over jeans, boots, and casual tailoring by those who understand that accessories make the outfit. Five precision-punched holes for a secure fit. Width: 4.5 cm (1.75 in). Available sizes: 28–46. For the man who wears his confidence on the outside.',
     category: 'accessories',
-    price: '$55',
+    
     featured: true,
     image: 'img/Belts/WhatsApp Image 2026-05-06 at 17.49.23.jpeg'
   },
@@ -2060,4 +2060,4 @@ document.getElementById('product-modal-backdrop')?.addEventListener('click', fun
 // Close on Escape key
 document.addEventListener('keydown', e => {
   if (e.key === 'Escape') closeProductModal();
-});
+}); 
