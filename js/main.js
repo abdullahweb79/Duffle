@@ -3,8 +3,8 @@
 const PRODUCTS = [
 {
   id: 1,
-  name: 'Nomad Executive Full-Grain Leather Duffle Bag — Teal',
-  description: 'Crafted from premium full-grain leather in signature teal, this 45L weekender features solid brass hardware, YKK heavy-duty zippers, reinforced padded handles, a removable shoulder strap, and a high-quality cotton inner lining with organiser pockets. Dimensions: 22" L × 11" W × 11" H. Ideal for weekend getaways, business travel, gym use, and carry-on luggage.',
+  name: 'Nomad Teal Premium Cordura Duffle Bag — Weekender Travel Bag with YKK Zippers & Brass Hardware',
+  description: 'The Nomad in signature teal is a premium weekender duffle built from heavy-duty Cordura fabric — one of the most abrasion and tear-resistant materials in the bag industry, trusted by military, outdoor, and travel professionals worldwide. The vibrant teal colourway makes this bag instantly identifiable on any luggage carousel or locker room bench. Solid brass hardware on D-rings and buckles, paired with YKK heavy-duty zippers on all compartments, ensures smooth and durable performance through thousands of open-and-close cycles. Reinforced padded carry handles with nylon webbing base attachment provide a comfortable, confident grip for short and long carries. A removable padded shoulder strap with non-slip pad allows hands-free transport. The high-quality cotton fabric inner lining keeps the interior clean and structured, with organiser slip pockets and a zippered security pocket for valuables. Protective rubber feet on the base guard the bag on wet and rough surfaces. Capacity: 45L. Dimensions: 56 × 28 × 28 cm (22" L × 11" W × 11" H). Ideal for weekend getaways, business travel, gym use, and carry-on luggage.',
   category: 'duffle-bags',
   featured: false,
   images: [
@@ -16,8 +16,8 @@ const PRODUCTS = [
 },
 {
   id: 2,
-  name: 'Onyx Executive Full-Grain Leather Duffle Bag — Jet Black',
-  description: 'A commanding jet-black full-grain leather duffle engineered for the modern professional. Features antique brass hardware, YKK precision zippers, dual padded leather-wrapped handles, a detachable cross-body strap, protective rubber feet, and a premium woven cotton lining with a zippered security pocket. Dimensions: 22" L × 11" W × 11" H | Capacity: 45L.',
+  name: 'Onyx Black Premium Cordura Duffle Bag — Professional Travel Bag with YKK Zippers & Antique Brass Hardware',
+  description: 'The Onyx is a commanding jet-black Cordura duffle bag engineered for the modern professional who expects their gear to perform as well as it looks. Built from 1000D heavy-duty Cordura nylon — virtually indestructible under daily travel and commuting conditions — the all-black colourway presents a sharp, professional identity that works equally well in a boardroom locker as it does in an airport terminal. Antique brass hardware on all D-rings, buckles, and zipper pulls adds a warm, premium contrast to the dark fabric body. YKK precision zippers on the main compartment and all pockets deliver smooth, reliable access every time. Dual padded nylon-wrapped carry handles with reinforced stitched bases allow comfortable two-hand carry, while a detachable cross-body strap provides hands-free flexibility. A premium cotton fabric interior lining provides a clean surface with a zippered internal security pocket for passports and valuables. Protective rubber feet on the base. Capacity: 45L. Dimensions: 56 × 28 × 28 cm (22" L × 11" W × 11" H).',
   category: 'duffle-bags',
   featured: false,
   images: [
@@ -29,8 +29,8 @@ const PRODUCTS = [
 },
 {
   id: 3,
-  name: 'Bordeaux Executive Full-Grain Leather Duffle Bag — Burgundy',
-  description: 'A bold deep-burgundy full-grain leather duffle that blends personality with premium craftsmanship. Solid brass fittings, YKK zippers, a full-length wide-mouth opening, reinforced stress points, protective rubber feet, and a fine cotton interior lining with slip pockets and a zippered valuables pouch. Dimensions: 22" L × 11" W × 11" H | Capacity: 45L.',
+  name: 'Bordeaux Burgundy Premium Cordura Duffle Bag — Bold Weekender Travel Bag with YKK Zippers',
+  description: 'The Bordeaux makes a confident statement in deep burgundy — a rich, distinctive colourway that stands apart from the standard black and grey field of travel bags. Constructed from heavy-duty Cordura nylon with reinforced stress points at all handle attachments and zipper ends for maximum longevity under heavy packing. Solid brass fittings on all hardware points and YKK zippers throughout ensure that the quality of the construction matches the quality of the material. A full-length wide-mouth opening on the main compartment allows effortless top-down packing without rummaging. The fine cotton fabric interior lining is clean and durable, with slip pockets for clothing organisation and a zippered valuables pouch for documents and electronics. Protective rubber feet protect the base on wet and rough surfaces. Reinforced padded carry handles and a removable adjustable shoulder strap offer versatile carry options. Capacity: 45L. Dimensions: 56 × 28 × 28 cm (22" L × 11" W × 11" H).',
   category: 'duffle-bags',
   featured: false,
   images: [
@@ -42,8 +42,8 @@ const PRODUCTS = [
 },
 {
   id: 4,
-  name: 'Expedition Canvas & Full-Grain Leather Duffle Bag — Charcoal',
-  description: 'Heavy-duty waxed canvas duffle with full-grain leather trim at all wear points. Built with YKK industrial zippers, brass hardware, padded leather top handles, a removable shoulder strap, external end pockets, and a structured cotton-lined interior with slip and zip pockets. Dimensions: 24" L × 12" W × 12" H | Capacity: 55L. Ideal for adventure travel, extended trips, and gym use.',
+  name: 'Expedition Charcoal Heavy-Duty Waxed Canvas Duffle Bag — Adventure Travel Bag with YKK Zippers',
+  description: 'The Expedition is built for the traveller who goes further and stays longer. This heavy-duty waxed canvas duffle in charcoal grey combines traditional canvas durability with modern construction standards, producing a bag that handles adventure travel, extended trips, and rough handling with complete confidence. The waxed canvas exterior provides natural water resistance and only improves in character with use and age. YKK industrial-grade zippers on the wide-mouth main compartment and external end pockets provide fast, reliable access to the bag\'s full 55L carrying capacity. Solid brass D-rings, buckles, and hardware throughout, with padded nylon carry handles riveted at the base for maximum strength. A removable shoulder strap with non-slip pad allows comfortable hands-free carry on longer walks. The structured cotton-lined interior features full-length slip pockets, a zip security pocket, and a snap-top open pocket for organised storage. Capacity: 55L. Dimensions: 61 × 30 × 30 cm (24" L × 12" W × 12" H). Ideal for adventure travel, extended trips, and gym use.',
   category: 'duffle-bags',
   featured: false,
   images: [
@@ -55,8 +55,8 @@ const PRODUCTS = [
 },
 {
   id: 5,
-  name: 'Sahara Waxed Canvas & Leather Duffle Bag — Sand Beige',
-  description: 'Vintage-inspired waxed canvas duffle in warm sand beige with full-grain leather trim that deepens with age. Features aged brass hardware, YKK zippers, a wide-mouth main compartment, magnetic-snap end pockets, a non-slip padded shoulder strap, and a woven cotton interior lining with organisation pockets and key-clip fob. Dimensions: 24" L × 12" W × 12" H | Capacity: 55L.',
+  name: 'Sahara Sand Beige Vintage Waxed Canvas Duffle Bag — Weekend Travel Bag with Aged Brass Hardware',
+  description: 'The Sahara is a vintage-inspired waxed canvas duffle in warm sand beige that captures the spirit of classic expedition travel with modern functionality. The natural sand tone of the waxed canvas exterior gives this bag an effortlessly warm, timeless aesthetic that pairs with casual and adventure wardrobes alike. The canvas develops a beautiful worn-in patina and character with use, becoming more distinctive over time. Aged brass hardware on all fittings and YKK zippers throughout provide reliable, characterful performance. A wide-mouth main compartment opens fully for easy packing and retrieval, with magnetic-snap end pockets for fast-access storage of frequently needed items. A non-slip padded shoulder strap and padded carry handles ensure comfort across all carry styles. The woven cotton interior lining is clean and organised, featuring multiple organisation pockets and a key-clip fob. Capacity: 55L. Dimensions: 61 × 30 × 30 cm (24" L × 12" W × 12" H).',
   category: 'duffle-bags',
   featured: false,
   images: [
@@ -68,8 +68,8 @@ const PRODUCTS = [
 },
 {
   id: 6,
-  name: 'Alpine Canvas & Leather Duffle Bag — Olive Green',
-  description: 'Military-inspired olive green waxed canvas duffle with full-grain leather reinforcements at all stress points. Built with YKK heavy-duty zippers, solid brass D-rings and buckle hardware, riveted handle bases, double-stitched seams, and a cotton-lined interior with full-length slip pocket, zip security pocket, and snap-top open pocket. Dimensions: 24" L × 12" W × 12" H | Capacity: 55L.',
+  name: 'Alpine Olive Green Military Waxed Canvas Duffle Bag — Heavy-Duty Travel Bag with Brass Hardware',
+  description: 'The Alpine is a military-inspired olive green waxed canvas duffle built for riders, adventurers, and travellers who demand rugged durability and no-nonsense functionality. The olive canvas exterior channels the aesthetic of classic military kit bags while delivering modern performance — water-resistant, abrasion-resistant, and built to handle rough treatment without compromise. YKK heavy-duty zippers and solid brass D-rings, buckles, and riveted hardware throughout ensure every component matches the durability of the canvas body. Double-stitched seams at all stress points and riveted carry handle bases add structural reinforcement for heavy loads. The cotton-lined interior provides a clean, organised environment with a full-length slip pocket, a zippered security pocket, and a snap-top open pocket. A removable adjustable shoulder strap with non-slip pad allows hands-free carry in demanding environments. Capacity: 55L. Dimensions: 61 × 30 × 30 cm (24" L × 12" W × 12" H).',
   category: 'duffle-bags',
   featured: false,
   images: [
@@ -81,8 +81,8 @@ const PRODUCTS = [
 },
 {
   id: 7,
-  name: 'Sunburst Full-Grain Leather Duffle Bag — Mustard Yellow',
-  description: 'A bold statement weekender in vibrant mustard yellow full-grain leather with gold-toned solid brass hardware and YKK premium zippers. Features padded double-carry handles, a removable adjustable shoulder strap, protective brass feet, and a premium cotton interior lining with zip-top valuables compartment, slip pockets, and key-clip fob. Dimensions: 22" L × 11" W × 11" H | Capacity: 45L.',
+  name: 'Sunburst Mustard Yellow Premium Cordura Duffle Bag — Bold Weekender Bag with Gold Brass Hardware',
+  description: 'The Sunburst is for those who refuse to blend in. This vibrant mustard yellow Cordura duffle bag is the most visually confident piece in the collection — a bold, energetic colourway that makes every arrival an entrance. Constructed from heavy-duty Cordura nylon with reinforced stress points and double-stitched seams for lasting structural integrity under heavy packing. Gold-toned solid brass hardware on all D-rings, buckles, and zipper pulls harmonises with the warm yellow fabric for a cohesive, premium finish. YKK premium zippers on all compartments provide smooth, reliable access. Padded double-carry handles with wide nylon webbing bases and a removable adjustable shoulder strap offer versatile carry options for any journey. Protective brass feet on the base. The premium cotton interior lining features a zip-top valuables compartment, slip pockets, and a key-clip fob for organised storage. Capacity: 45L. Dimensions: 56 × 28 × 28 cm (22" L × 11" W × 11" H).',
   category: 'duffle-bags',
   featured: false,
   images: [
@@ -94,8 +94,8 @@ const PRODUCTS = [
 },
 {
   id: 8,
-  name: 'Heritage Full-Grain Leather Duffle Bag — Chocolate Brown',
-  description: 'A classic chocolate brown full-grain leather duffle that develops a rich patina with age. Features antique brass hardware, YKK zippers, naturally wax-conditioned water-resistant leather, protective bottom studs, padded carry handles, and a fine woven cotton interior lining with slip pockets, a zip valuables pocket, and key-clip fob. Dimensions: 22" L × 11" W × 11" H | Capacity: 45L.',
+  name: 'Heritage Chocolate Brown Premium Cordura Duffle Bag — Classic Weekender Bag with Antique Brass Hardware',
+  description: 'The Heritage is a classic chocolate brown Cordura duffle bag that brings warmth and timeless style to the weekender format. The deep chocolate brown colourway is one of the most versatile and enduringly popular choices in travel bags — pairing naturally with tan, cream, olive, and navy wardrobes. Built from heavy-duty Cordura nylon with antique brass hardware on all fittings and YKK zippers throughout for lasting, dependable performance. Naturally treated water-resistant fabric keeps contents protected from light rain and wet surfaces. Protective bottom studs elevate the base off wet or rough ground. Padded carry handles with reinforced nylon webbing bases and a removable adjustable shoulder strap provide comfortable carry options for all journey lengths. The fine woven cotton interior lining is clean and fully organised with slip pockets, a zip valuables pocket, and a key-clip fob. Capacity: 45L. Dimensions: 56 × 28 × 28 cm (22" L × 11" W × 11" H).',
   category: 'duffle-bags',
   featured: false,
   images: [
@@ -107,8 +107,8 @@ const PRODUCTS = [
 },
 {
   id: 9,
-  name: 'Gatsby Two-Tone Full-Grain Leather Duffle Bag — Black & Tan',
-  description: 'A luxury two-tone duffle in jet-black full-grain leather with rich tan leather trim on handles, base, and zipper pulls. Features polished brass hardware, YKK zippers, contrast hand-finished stitching, saddle-stitched handle bases, brass protective feet, and a warm-toned premium cotton interior lining with document sleeve, slip pockets, and a zip valuables pocket. Dimensions: 22" L × 11" W × 11" H | Capacity: 45L.',
+  name: 'Gatsby Two-Tone Black & Tan Premium Cordura Duffle Bag — Luxury Weekender Bag with Brass Hardware',
+  description: 'The Gatsby is the most refined duffle in the collection — a two-tone black and tan Cordura bag that brings a luxury fashion sensibility to hard-wearing travel construction. The jet-black Cordura body is accented with tan nylon webbing trim on the handles, base panel, and zipper pulls, creating a sharp contrast that reads as genuinely premium. Polished brass hardware on all D-rings and fittings, paired with YKK precision zippers, ensures the hardware quality matches the design intent. Contrast hand-finished stitching and saddle-stitched-style handle bases add bespoke detailing rarely seen at this price point. Brass protective feet on the base guard against wet and rough surfaces. The warm-toned premium cotton interior lining is fully organised with a document sleeve, slip pockets, and a zip valuables pocket for safe storage of passports and electronics. Capacity: 45L. Dimensions: 56 × 28 × 28 cm (22" L × 11" W × 11" H).',
   category: 'duffle-bags',
   featured: false,
   images: [
@@ -120,8 +120,8 @@ const PRODUCTS = [
 },
 {
   id: 10,
-  name: 'Dome Barrel Canvas & Leather Duffle Bag — Graphite Grey',
-  description: 'A refined dome-barrel weekender in premium graphite grey waxed canvas with rich tan full-grain leather trim across the handles, base corners, shoulder strap, and ID patch. The structured half-moon silhouette stands upright on its own and opens wide for effortless packing. Built with solid brass hardware and YKK precision zippers for smooth, lasting performance. Padded twin top handles and a removable adjustable cross-body strap offer versatile carry options for any journey. The high-quality cotton interior lining provides a clean, durable surface with multiple slip pockets and a zip-close security compartment to keep essentials organised. Dimensions: 20" L × 10" W × 12" H | Capacity: 38L. Ideal for overnight travel, gym use, weekend getaways, and smart casual carry.',
+  name: 'Dome Barrel Graphite Grey Waxed Canvas Duffle Bag — Structured Weekender Bag with Tan Trim & YKK Zippers',
+  description: 'The Dome Barrel is a refined graphite grey waxed canvas duffle with a distinctive half-moon barrel silhouette that sets it apart from the standard rectangular duffle format. The structured dome profile stands upright independently and opens wide at the top for effortless packing and access — a practical advantage over soft-sided bags that collapse when set down. The graphite waxed canvas exterior provides natural water resistance and develops character with use, while tan nylon webbing trim across the handles, base corners, shoulder strap, and ID patch adds a warm two-tone contrast. Solid brass hardware and YKK precision zippers on all access points deliver smooth, durable performance. Padded twin top handles with reinforced attachment bases and a removable adjustable cross-body strap with non-slip pad offer versatile carry options for any journey. The high-quality cotton fabric interior lining provides a clean, durable surface with multiple slip pockets and a zip-close security compartment. Capacity: 38L. Dimensions: 51 × 25 × 30 cm (20" L × 10" W × 12" H). Ideal for overnight travel, gym use, weekend getaways, and smart casual carry.',
   category: 'duffle-bags',
   featured: false,
   images: [
@@ -682,8 +682,8 @@ const PRODUCTS = [
 },
 {
   id: 67,
-  name: 'Slugger Pro Red Top-Grain Cowhide Leather Baseball Backpack with Bat Sleeves & YKK Zippers',
-  description: 'Step onto the diamond with the Slugger Pro — a bold red premium leather baseball backpack engineered for serious players who demand performance and durability in equal measure. Constructed from top-grain cowhide leather with a high-density padded back panel and ergonomic shoulder straps, this bag carries your full kit in complete comfort. Dual external bat sleeves secure two full-size bats, while a large vented main compartment holds helmets, cleats, and apparel. Side mesh pockets keep a water bottle and accessories within reach. All compartments are secured by YKK zippers for smooth, reliable access, and the interior is fully lined with premium cotton fabric to protect gear from abrasion. Solid brass hardware on buckles and D-rings adds a premium finish. Capacity: 30–35 Litres. Dimensions: 55 × 35 × 25 cm.',
+  name: 'Slugger Pro Red Premium Baseball Backpack with Dual Bat Sleeves & YKK Zippers',
+  description: 'Step onto the diamond with the Slugger Pro — a bold red premium Cordura nylon baseball backpack engineered for serious players who demand performance and durability in equal measure. Constructed from heavy-duty Cordura fabric with a high-density padded back panel and ergonomic shoulder straps, this bag carries your full kit in complete comfort. Dual external bat sleeves secure two full-size bats, while a large vented main compartment holds helmets, cleats, and apparel. Side mesh pockets keep a water bottle and accessories within reach. All compartments are secured by YKK zippers for smooth, reliable access, and the interior is fully lined with premium cotton fabric to protect gear from abrasion. Solid brass hardware on buckles and D-rings adds a premium finish. Capacity: 30–35 Litres. Dimensions: 55 × 35 × 25 cm.',
   category: 'sports-bags',
   featured: false,
   images: [
@@ -696,7 +696,7 @@ const PRODUCTS = [
 {
   id: 68,
   name: 'Diamond Hauler Grey Premium Wheeled Baseball Roller Bag with Telescoping Handle & YKK Zippers',
-  description: 'The Diamond Hauler is the ultimate team travel companion — a full-size wheeled baseball roller bag built for players who carry everything from bats and helmets to cleats and full uniforms. Constructed from rugged top-grain cowhide leather in a sleek charcoal grey, this upright-style bag features a smooth-glide telescoping carry handle, heavy-duty inline skate wheels, and a reinforced base panel for maximum floor durability. The main compartment is generously sized for complete kit storage, with a dedicated ventilated shoe/cleat pocket to isolate odours. Multiple front organisation pockets with YKK zippers offer fast, reliable access to smaller items. Interior fully lined in premium cotton fabric. Solid brass hardware throughout. Capacity: 55–60 Litres. Dimensions: 90 × 35 × 30 cm.',
+  description: 'The Diamond Hauler is the ultimate team travel companion — a full-size wheeled baseball roller bag built for players who carry everything from bats and helmets to cleats and full uniforms. Constructed from heavy-duty Cordura nylon in a sleek charcoal grey, this upright-style bag features a smooth-glide telescoping carry handle, heavy-duty inline skate wheels, and a reinforced base panel for maximum floor durability. The main compartment is generously sized for complete kit storage, with a dedicated ventilated shoe/cleat pocket to isolate odours. Multiple front organisation pockets with YKK zippers offer fast, reliable access to smaller items. Interior fully lined in premium cotton fabric. Solid brass hardware throughout. Capacity: 55–60 Litres. Dimensions: 90 × 35 × 30 cm.',
   category: 'sports-bags',
   featured: false,
   images: [
@@ -709,7 +709,7 @@ const PRODUCTS = [
 {
   id: 69,
   name: 'Strikeout Elite Black & Neon Green Premium Baseball Backpack with Ventilated Bat Compartment',
-  description: 'High-visibility on and off the field — the Strikeout Elite baseball backpack in black and neon green is built for the competitive player who refuses to blend in. Crafted from top-grain cowhide leather with reinforced stress points and padded air-flow back panel, this backpack distributes load evenly during long travel days. The ventilated main compartment accommodates a full helmet and kit, with dedicated bat sleeves running along the exterior for two full-size bats. Neon accent trim on zippers and shoulder straps ensures quick identification in busy dugouts. All pockets feature YKK zippers for dependable, smooth-glide access. Interior is fully lined in premium cotton fabric. Solid brass hardware on all attachment points. Capacity: 30–35 Litres. Dimensions: 55 × 35 × 25 cm.',
+  description: 'High-visibility on and off the field — the Strikeout Elite baseball backpack in black and neon green is built for the competitive player who refuses to blend in. Constructed from heavy-duty Cordura nylon with reinforced stress points and a padded air-flow back panel, this backpack distributes load evenly during long travel days. The ventilated main compartment accommodates a full helmet and kit, with dedicated bat sleeves running along the exterior for two full-size bats. Neon accent trim on zippers and shoulder straps ensures quick identification in busy dugouts. All pockets feature YKK zippers for dependable, smooth-glide access. Interior is fully lined in premium cotton fabric. Solid brass hardware on all attachment points. Capacity: 30–35 Litres. Dimensions: 55 × 35 × 25 cm.',
   category: 'sports-bags',
   featured: false,
   images: [
@@ -722,7 +722,7 @@ const PRODUCTS = [
 {
   id: 70,
   name: 'Powerplay Pro Black & Green Premium Baseball Backpack with Insulated Bottle Holder & Bat Sleeves',
-  description: 'The Powerplay Pro is a feature-packed black and neon green baseball backpack designed for players who stay hydrated and organised through every inning. Built from top-grain cowhide leather with padded, contoured shoulder straps and a ventilated back panel for all-day carry comfort. The side-mounted insulated bottle holder keeps water cold during warm-weather play, while dual external bat sleeves secure two full-size bats externally. The spacious main compartment holds a full helmet, gloves, and apparel, with a front organisation panel for small accessories. All YKK zippers provide smooth, heavy-use access. Premium cotton fabric interior lining protects all gear from scratches. Solid brass hardware on all mounting and adjustment points. Capacity: 32–36 Litres. Dimensions: 55 × 35 × 25 cm.',
+  description: 'The Powerplay Pro is a feature-packed black and neon green baseball backpack designed for players who stay hydrated and organised through every inning. Built from heavy-duty Cordura nylon with padded, contoured shoulder straps and a ventilated back panel for all-day carry comfort. The side-mounted insulated bottle holder keeps water cold during warm-weather play, while dual external bat sleeves secure two full-size bats externally. The spacious main compartment holds a full helmet, gloves, and apparel, with a front organisation panel for small accessories. All YKK zippers provide smooth, heavy-use access. Premium cotton fabric interior lining protects all gear from scratches. Solid brass hardware on all mounting and adjustment points. Capacity: 32–36 Litres. Dimensions: 55 × 35 × 25 cm.',
   category: 'sports-bags',
   featured: false,
   images: [
@@ -735,7 +735,7 @@ const PRODUCTS = [
 {
   id: 71,
   name: 'Grand Slam Tri-Tone Black, Grey & Red Premium Baseball Backpack with Dual Bat Sleeves',
-  description: 'Make a statement in the dugout with the Grand Slam — a tri-tone black, grey, and red premium baseball backpack that brings professional-level organisation and carry capacity to every player. Constructed from top-grain cowhide leather with a structured frame, reinforced base, and padded back system for long-haul comfort. The dual external bat sleeves accommodate two full-size bats with secure zip retention, while the main compartment offers generous space for a full helmet, cleats, and apparel. A front zip organisation pocket with YKK zipper keeps valuables and accessories within arm\'s reach. Red accent stitching and trim reflect serious team spirit. Interior lined in premium cotton fabric throughout. Solid brass hardware on all straps and closures. Capacity: 30–35 Litres. Dimensions: 55 × 35 × 25 cm.',
+  description: 'Make a statement in the dugout with the Grand Slam — a tri-tone black, grey, and red premium Cordura nylon baseball backpack that brings professional-level organisation and carry capacity to every player. Constructed with a structured frame, reinforced base, and padded back system for long-haul comfort. The dual external bat sleeves accommodate two full-size bats with secure zip retention, while the main compartment offers generous space for a full helmet, cleats, and apparel. A front zip organisation pocket with YKK zipper keeps valuables and accessories within arm\'s reach. Red accent stitching and trim reflect serious team spirit. Interior lined in premium cotton fabric throughout. Solid brass hardware on all straps and closures. Capacity: 30–35 Litres. Dimensions: 55 × 35 × 25 cm.',
   category: 'sports-bags',
   featured: false,
   images: [
@@ -748,7 +748,7 @@ const PRODUCTS = [
 {
   id: 72,
   name: 'BlueStrike Elite Royal Blue & Neon Green Premium Baseball Backpack with Padded Back System',
-  description: 'Stand out in the field with the BlueStrike Elite — a royal blue and neon green premium baseball backpack that combines bold colour blocking with serious performance construction. Built from top-grain cowhide leather with a structured, load-bearing frame and padded mesh back panel designed for ventilated, posture-friendly carry. Dual external bat sleeves with zip closure secure full-size bats, while the large main compartment handles a helmet, full kit, and footwear. YKK zippers on all pockets ensure smooth, reliable access in any weather. The neon green accent on straps, pocket trims, and zipper pulls makes this bag instantly recognisable in any dugout. Interior fully lined in premium cotton fabric. Solid brass hardware throughout. Capacity: 30–35 Litres. Dimensions: 55 × 35 × 25 cm.',
+  description: 'Stand out in the field with the BlueStrike Elite — a royal blue and neon green premium Cordura nylon baseball backpack that combines bold colour blocking with serious performance construction. Built with a structured, load-bearing frame and padded mesh back panel designed for ventilated, posture-friendly carry. Dual external bat sleeves with zip closure secure full-size bats, while the large main compartment handles a helmet, full kit, and footwear. YKK zippers on all pockets ensure smooth, reliable access in any weather. The neon green accent on straps, pocket trims, and zipper pulls makes this bag instantly recognisable in any dugout. Interior fully lined in premium cotton fabric. Solid brass hardware throughout. Capacity: 30–35 Litres. Dimensions: 55 × 35 × 25 cm.',
   category: 'sports-bags',
   featured: false,
   images: [
@@ -761,7 +761,7 @@ const PRODUCTS = [
 {
   id: 73,
   name: 'Fielder\'s Choice Navy Blue Premium Baseball Backpack with External Glove Holder & Bat Sleeve',
-  description: 'Designed for the fielder who values quick transitions from bag to play, the Fielder\'s Choice is a navy blue premium baseball backpack featuring a dedicated external glove holder that keeps your fielding glove securely mounted and immediately accessible. Constructed from top-grain cowhide leather with reinforced stitching and a padded carry system for comfortable shoulder and back support. The single external bat sleeve holds a full-size bat, while the roomy main compartment stores a helmet, uniform, and accessories. A front panel zip pocket with YKK zipper organises keys, wallet, and small gear. The navy colourway presents a clean, professional look on and off the field. Interior lined throughout in premium cotton fabric. Solid brass hardware on all adjustment points. Capacity: 28–32 Litres. Dimensions: 52 × 33 × 24 cm.',
+  description: 'Designed for the fielder who values quick transitions from bag to play, the Fielder\'s Choice is a navy blue premium Cordura nylon baseball backpack featuring a dedicated external glove holder that keeps your fielding glove securely mounted and immediately accessible. Constructed with reinforced stitching and a padded carry system for comfortable shoulder and back support. The single external bat sleeve holds a full-size bat, while the roomy main compartment stores a helmet, uniform, and accessories. A front panel zip pocket with YKK zipper organises keys, wallet, and small gear. The navy colourway presents a clean, professional look on and off the field. Interior lined throughout in premium cotton fabric. Solid brass hardware on all adjustment points. Capacity: 28–32 Litres. Dimensions: 52 × 33 × 24 cm.',
   category: 'sports-bags',
   featured: false,
   images: [
@@ -774,7 +774,7 @@ const PRODUCTS = [
 {
   id: 74,
   name: 'Allstar Black Premium Baseball Backpack with Glove Holder, Dual Bat Sleeves & YKK Zippers',
-  description: 'The Allstar is the complete black baseball backpack — built for tournament-level players who need a bag that carries everything without compromise. Constructed from top-grain cowhide leather with a heavy-duty reinforced structure, padded back panel, and wide-base stability for independent standing. An external glove holder keeps your fielding glove secured and ventilated on the exterior, while dual bat sleeves provide easy access to two full-size bats without opening the main bag. The spacious interior holds a full helmet, cleats, and uniform with room to spare, and is fully lined in premium cotton fabric for clean, protected storage. All access points use YKK zippers for smooth, long-cycle reliability. Solid brass hardware on all straps and buckles. Capacity: 32–36 Litres. Dimensions: 55 × 35 × 25 cm.',
+  description: 'The Allstar is the complete black baseball backpack — built for tournament-level players who need a bag that carries everything without compromise. Constructed from heavy-duty Cordura nylon with a heavy-duty reinforced structure, padded back panel, and wide-base stability for independent standing. An external glove holder keeps your fielding glove secured and ventilated on the exterior, while dual bat sleeves provide easy access to two full-size bats without opening the main bag. The spacious interior holds a full helmet, cleats, and uniform with room to spare, and is fully lined in premium cotton fabric for clean, protected storage. All access points use YKK zippers for smooth, long-cycle reliability. Solid brass hardware on all straps and buckles. Capacity: 32–36 Litres. Dimensions: 55 × 35 × 25 cm.',
   category: 'sports-bags',
   featured: false,
   images: [
@@ -787,7 +787,7 @@ const PRODUCTS = [
 {
   id: 75,
   name: 'Courtside Pro Black Premium Basketball Backpack with Dedicated Ball Compartment & YKK Zippers',
-  description: 'The Courtside Pro is the serious player\'s basketball backpack — purpose-built with a large, reinforced bottom ball compartment that securely holds a full-size NBA basketball while keeping the rest of your gear completely separate and organised. Constructed from top-grain cowhide leather with a padded back panel, ergonomic shoulder straps, and a chest strap for on-the-move stability. The main compartment comfortably holds a full change of kit, shoes, and accessories, while front organisation pockets with YKK zippers keep valuables and training gear easily accessible. Side mesh pockets accommodate a water bottle on each side. Interior is fully lined in premium cotton fabric throughout. Solid brass hardware on all attachment and adjustment points. A bag built for the court-ready athlete who expects premium quality in every detail. Capacity: 35–40 Litres. Dimensions: 55 × 35 × 28 cm.',
+  description: 'The Courtside Pro is the serious player\'s basketball backpack — purpose-built with a large, reinforced bottom ball compartment that securely holds a full-size NBA basketball while keeping the rest of your gear completely separate and organised. Constructed from heavy-duty Cordura nylon with a padded back panel, ergonomic shoulder straps, and a chest strap for on-the-move stability. The main compartment comfortably holds a full change of kit, shoes, and accessories, while front organisation pockets with YKK zippers keep valuables and training gear easily accessible. Side mesh pockets accommodate a water bottle on each side. Interior is fully lined in premium cotton fabric throughout. Solid brass hardware on all attachment and adjustment points. Capacity: 35–40 Litres. Dimensions: 55 × 35 × 28 cm.',
   category: 'sports-bags',
   featured: false,
   images: [
@@ -799,8 +799,8 @@ const PRODUCTS = [
 },
 {
   id: 76,
-  name: 'Hardwood Classic Red Premium Top-Grain Cowhide Leather Basketball Duffle Bag with YKK Zippers',
-  description: 'The Hardwood Classic is a clean, no-nonsense red basketball duffle bag built for players who travel to every game ready to perform. Crafted from top-grain cowhide leather with reinforced double-stitched seams and a structured base panel that holds its shape whether packed full or half-empty. Twin top carry handles with brass hardware rings allow easy one-hand or two-hand grip, while the wide main compartment comfortably fits a full-size basketball, training shoes, uniform, and accessories. End-zip pockets secured by YKK zippers provide fast, reliable access to valuables and smaller gear. The black contrast handles and trim give this bag a sharp, athletic identity. Interior fully lined in premium cotton fabric for clean, protected storage. An adjustable, removable shoulder strap offers hands-free carry on long walks. Capacity: 40–45 Litres. Dimensions: 60 × 30 × 30 cm.',
+  name: 'Hardwood Classic Red Premium Basketball Duffle Bag with YKK Zippers & Brass Hardware',
+  description: 'The Hardwood Classic is a clean, no-nonsense red basketball duffle bag built for players who travel to every game ready to perform. Constructed from heavy-duty Cordura nylon with reinforced double-stitched seams and a structured base panel that holds its shape whether packed full or half-empty. Twin top carry handles with brass hardware rings allow easy one-hand or two-hand grip, while the wide main compartment comfortably fits a full-size basketball, training shoes, uniform, and accessories. End-zip pockets secured by YKK zippers provide fast, reliable access to valuables and smaller gear. The black contrast handles and trim give this bag a sharp, athletic identity. Interior fully lined in premium cotton fabric for clean, protected storage. An adjustable, removable shoulder strap offers hands-free carry on long walks. Capacity: 40–45 Litres. Dimensions: 60 × 30 × 30 cm.',
   category: 'sports-bags',
   featured: false,
   images: [
@@ -812,8 +812,8 @@ const PRODUCTS = [
 },
 {
   id: 77,
-  name: 'Fastbreak Red Premium Top-Grain Cowhide Leather Basketball Bag with Ventilated Shoe Compartment',
-  description: 'The Fastbreak is a high-performance red basketball bag purpose-built for players who keep their footwear separate from the rest of their kit. A dedicated, ventilated bottom shoe compartment keeps basketball shoes and court footwear isolated from clean clothing and accessories — preventing odour transfer and protecting both. The spacious top main compartment holds a full-size basketball, uniform, and personal items with ease. Constructed from top-grain cowhide leather with reinforced stress-point stitching and a structured carry system. All compartments are sealed with YKK zippers for smooth, reliable access. Dual top handles with brass hardware rings and a removable padded shoulder strap offer flexible carry options. Interior fully lined in premium cotton fabric. Solid brass hardware throughout. Capacity: 42–48 Litres. Dimensions: 62 × 32 × 30 cm.',
+  name: 'Fastbreak Red Premium Basketball Bag with Ventilated Shoe Compartment & YKK Zippers',
+  description: 'The Fastbreak is a high-performance red basketball bag purpose-built for players who keep their footwear separate from the rest of their kit. A dedicated, ventilated bottom shoe compartment keeps basketball shoes and court footwear isolated from clean clothing and accessories — preventing odour transfer and protecting both. The spacious top main compartment holds a full-size basketball, uniform, and personal items with ease. Constructed from heavy-duty Cordura nylon with reinforced stress-point stitching and a structured carry system. All compartments are sealed with YKK zippers for smooth, reliable access. Dual top handles with brass hardware rings and a removable padded shoulder strap offer flexible carry options. Interior fully lined in premium cotton fabric. Solid brass hardware throughout. Capacity: 42–48 Litres. Dimensions: 62 × 32 × 30 cm.',
   category: 'sports-bags',
   featured: false,
   images: [
@@ -825,8 +825,8 @@ const PRODUCTS = [
 },
 {
   id: 78,
-  name: 'Triple Threat Red & Grey Premium Top-Grain Cowhide Leather Basketball Backpack with Side Bottle Pocket',
-  description: 'The Triple Threat is a feature-loaded red and grey basketball backpack engineered for athletes who need every piece of gear organised and immediately accessible. Constructed from top-grain cowhide leather with a padded, ventilated back panel and wide ergonomic shoulder straps for comfortable carry on and off the court. The extra-deep main compartment easily accommodates a full-size basketball alongside court shoes, uniform, and accessories. A quick-access side compartment with YKK zipper provides a dedicated space for smaller items, while a wide-mouth side mesh bottle pocket keeps hydration within reach at all times. Front organiser pocket with YKK zipper for keys, phone, and wallet. Interior fully lined in premium cotton fabric. Solid brass hardware on all strap adjusters and attachment points. Capacity: 35–40 Litres. Dimensions: 55 × 35 × 28 cm.',
+  name: 'Triple Threat Red & Grey Premium Basketball Backpack with Side Bottle Pocket & YKK Zippers',
+  description: 'The Triple Threat is a feature-loaded red and grey basketball backpack engineered for athletes who need every piece of gear organised and immediately accessible. Constructed from heavy-duty Cordura nylon with a padded, ventilated back panel and wide ergonomic shoulder straps for comfortable carry on and off the court. The extra-deep main compartment easily accommodates a full-size basketball alongside court shoes, uniform, and accessories. A quick-access side compartment with YKK zipper provides a dedicated space for smaller items, while a wide-mouth side mesh bottle pocket keeps hydration within reach at all times. Front organiser pocket with YKK zipper for keys, phone, and wallet. Interior fully lined in premium cotton fabric. Solid brass hardware on all strap adjusters and attachment points. Capacity: 35–40 Litres. Dimensions: 55 × 35 × 28 cm.',
   category: 'sports-bags',
   featured: false,
   images: [
@@ -838,8 +838,8 @@ const PRODUCTS = [
 },
 {
   id: 79,
-  name: 'Blacktop Pro Premium Top-Grain Cowhide Leather Basketball Duffle Bag with Brass Hardware & YKK Zippers',
-  description: 'Understated, powerful, and built for the serious athlete — the Blacktop Pro is a full-size black basketball duffle bag that carries your entire game-day kit with zero compromise. Crafted from top-grain cowhide leather in all-black, with reinforced double-stitched seams and a wide flat-base construction for stable, independent standing. The generous main compartment handles a full-size basketball, court shoes, and a complete uniform with room to spare. Dual top carry handles with solid brass hardware D-rings allow confident one-hand or two-hand carry, while end-access pockets with YKK zippers provide fast retrieval of accessories. A removable padded shoulder strap offers hands-free carry for longer distances. Interior fully lined in premium cotton fabric to keep gear clean and scratch-free. Solid brass hardware on all closures and adjustments. Capacity: 40–45 Litres. Dimensions: 60 × 30 × 30 cm.',
+  name: 'Blacktop Pro Black Premium Basketball Duffle Bag with Brass Hardware & YKK Zippers',
+  description: 'Understated, powerful, and built for the serious athlete — the Blacktop Pro is a full-size black basketball duffle bag that carries your entire game-day kit with zero compromise. Constructed from heavy-duty Cordura nylon in all-black, with reinforced double-stitched seams and a wide flat-base construction for stable, independent standing. The generous main compartment handles a full-size basketball, court shoes, and a complete uniform with room to spare. Dual top carry handles with solid brass hardware D-rings allow confident one-hand or two-hand carry, while end-access pockets with YKK zippers provide fast retrieval of accessories. A removable padded shoulder strap offers hands-free carry for longer distances. Interior fully lined in premium cotton fabric to keep gear clean and scratch-free. Solid brass hardware on all closures and adjustments. Capacity: 40–45 Litres. Dimensions: 60 × 30 × 30 cm.',
   category: 'sports-bags',
   featured: false,
   images: [
@@ -851,8 +851,8 @@ const PRODUCTS = [
 },
 {
   id: 80,
-  name: 'Drop Zone Black Premium Top-Grain Cowhide Leather Basketball Backpack with External Ball Compartment',
-  description: 'Never stuff a basketball into a main compartment again — the Drop Zone backpack features a dedicated oversized external ball pocket that holds a full-size NBA basketball securely and independently, keeping the rest of your kit clean and completely organised. Constructed from top-grain cowhide leather with a structured, reinforced frame and padded ergonomic shoulder straps for comfortable carry to and from practice. The roomy main compartment stores court shoes, uniform, and personal items, while a front YKK-zip organiser pocket keeps valuables accessible. A ventilated shoe pocket at the base isolates footwear from fresh clothing. YKK zippers on all access points for smooth, high-cycle reliability. Interior fully lined in premium cotton fabric. Solid brass hardware on all strap attachments and buckles. Capacity: 35–40 Litres. Dimensions: 55 × 35 × 28 cm.',
+  name: 'Drop Zone Black Premium Basketball Backpack with External Ball Compartment & YKK Zippers',
+  description: 'Never stuff a basketball into a main compartment again — the Drop Zone backpack features a dedicated oversized external ball pocket that holds a full-size NBA basketball securely and independently, keeping the rest of your kit clean and completely organised. Constructed from heavy-duty Cordura nylon with a structured, reinforced frame and padded ergonomic shoulder straps for comfortable carry to and from practice. The roomy main compartment stores court shoes, uniform, and personal items, while a front YKK-zip organiser pocket keeps valuables accessible. A ventilated shoe pocket at the base isolates footwear from fresh clothing. YKK zippers on all access points for smooth, high-cycle reliability. Interior fully lined in premium cotton fabric. Solid brass hardware on all strap attachments and buckles. Capacity: 35–40 Litres. Dimensions: 55 × 35 × 28 cm.',
   category: 'sports-bags',
   featured: false,
   images: [
@@ -864,8 +864,8 @@ const PRODUCTS = [
 },
 {
   id: 81,
-  name: 'Gridiron Navy Premium Top-Grain Cowhide Leather Football Duffle Bag with YKK Zippers & Brass Hardware',
-  description: 'The Gridiron Navy is a premium full-size football duffle bag built for players who demand serious carry capacity and lasting durability every training day and match day. Crafted from top-grain cowhide leather in a deep navy blue with contrast grey base panelling, the bag combines a sharp, professional look with robust construction — reinforced double-stitched seams, structured base, and high-density handles with solid brass hardware rings. The oversized main compartment holds full pads, helmet, cleats, and a complete uniform without overpacking. End-zip compartments with YKK zippers offer fast access to boots, water bottles, and essentials. A removable padded shoulder strap enables hands-free carry across the car park or stadium. Interior is fully lined in premium cotton fabric for clean, abrasion-free storage. Solid brass hardware on all closures, handles, and adjustment points. Capacity: 55–60 Litres. Dimensions: 68 × 35 × 33 cm.',
+  name: 'Gridiron Navy Premium Football Duffle Bag with YKK Zippers & Brass Hardware',
+  description: 'The Gridiron Navy is a premium full-size football duffle bag built for players who demand serious carry capacity and lasting durability every training day and match day. Constructed from heavy-duty Cordura nylon in a deep navy blue with contrast grey base panelling, the bag combines a sharp, professional look with robust construction — reinforced double-stitched seams, structured base, and high-density handles with solid brass hardware rings. The oversized main compartment holds full pads, helmet, cleats, and a complete uniform without overpacking. End-zip compartments with YKK zippers offer fast access to boots, water bottles, and essentials. A removable padded shoulder strap enables hands-free carry across the car park or stadium. Interior is fully lined in premium cotton fabric for clean, abrasion-free storage. Solid brass hardware on all closures, handles, and adjustment points. Capacity: 55–60 Litres. Dimensions: 68 × 35 × 33 cm.',
   category: 'sports-bags',
   featured: false,
   images: [
@@ -877,8 +877,8 @@ const PRODUCTS = [
 },
 {
   id: 82,
-  name: 'Shadow Strike Quilted Diagonal Top-Grain Cowhide Leather Football Backpack with YKK Zippers',
-  description: 'The Shadow Strike is a sleek, fashion-forward football backpack that brings premium construction to the training ground. Crafted from top-grain cowhide leather with a bold diagonal quilted panel pattern that adds structural rigidity and distinctive visual texture. The padded back system and wide ergonomic shoulder straps distribute load comfortably for daily commute and training carry. The spacious main compartment holds boots, training kit, and accessories, while a front YKK-zip organiser pocket keeps valuables secure. Side zip pockets provide quick access without opening the main bag. All zippers are YKK for smooth, long-cycle reliability. Interior fully lined in premium cotton fabric. Solid brass hardware on all strap adjusters and attachment rings. A bag that performs as sharply as it looks. Capacity: 28–32 Litres. Dimensions: 50 × 32 × 22 cm.',
+  name: 'Shadow Strike Quilted Diagonal Premium Football Backpack with YKK Zippers & Brass Hardware',
+  description: 'The Shadow Strike is a sleek, fashion-forward football backpack that brings premium construction to the training ground. Built from heavy-duty Cordura nylon with a bold diagonal quilted panel pattern that adds structural rigidity and distinctive visual texture. The padded back system and wide ergonomic shoulder straps distribute load comfortably for daily commute and training carry. The spacious main compartment holds boots, training kit, and accessories, while a front YKK-zip organiser pocket keeps valuables secure. Side zip pockets provide quick access without opening the main bag. All zippers are YKK for smooth, long-cycle reliability. Interior fully lined in premium cotton fabric. Solid brass hardware on all strap adjusters and attachment rings. Capacity: 28–32 Litres. Dimensions: 50 × 32 × 22 cm.',
   category: 'sports-bags',
   featured: false,
   images: [
@@ -890,8 +890,8 @@ const PRODUCTS = [
 },
 {
   id: 83,
-  name: 'Matchday Pro Black Dual-Tier Top-Grain Cowhide Leather Football Duffle Bag with Brass Hardware',
-  description: 'The Matchday Pro redefines the football duffle with a structured dual-tier design that separates clean kit from boots and wet gear without compromise. Built from top-grain cowhide leather in all-black with reinforced double-stitched seams and a firm base for independent standing. The upper main compartment carries full training or match kit, while the lower ventilated tier provides a completely separate, accessible space for boots, shin pads, and damp clothing. Dual top carry handles with solid brass D-ring hardware allow confident carry, with a removable padded shoulder strap for hands-free transport. All access points feature YKK zippers. Interior fully lined in premium cotton fabric throughout both tiers. Solid brass hardware on all closures and adjustments. Capacity: 45–50 Litres. Dimensions: 65 × 32 × 32 cm.',
+  name: 'Matchday Pro Black Dual-Tier Premium Football Duffle Bag with Brass Hardware & YKK Zippers',
+  description: 'The Matchday Pro redefines the football duffle with a structured dual-tier design that separates clean kit from boots and wet gear without compromise. Built from heavy-duty Cordura nylon in all-black with reinforced double-stitched seams and a firm base for independent standing. The upper main compartment carries full training or match kit, while the lower ventilated tier provides a completely separate, accessible space for boots, shin pads, and damp clothing. Dual top carry handles with solid brass D-ring hardware allow confident carry, with a removable padded shoulder strap for hands-free transport. All access points feature YKK zippers. Interior fully lined in premium cotton fabric throughout both tiers. Solid brass hardware on all closures and adjustments. Capacity: 45–50 Litres. Dimensions: 65 × 32 × 32 cm.',
   category: 'sports-bags',
   featured: false,
   images: [
@@ -903,8 +903,8 @@ const PRODUCTS = [
 },
 {
   id: 85,
-  name: 'Stealth Edition Black Minimalist Top-Grain Cowhide Leather Football Backpack with YKK Zippers',
-  description: 'The Stealth Edition is built for the player who lets their game do the talking. This all-black minimalist football backpack strips away distraction and delivers pure functionality in a clean, professional silhouette. Constructed from top-grain cowhide leather with a smooth matte finish, reinforced load-bearing seams, and a padded back panel for all-day carry comfort. The structured main compartment holds a full match kit including boots and accessories, with a front organisation pocket for smaller items. All access points are sealed by YKK zippers for dependable performance in any conditions. Interior fully lined in premium cotton fabric. Solid brass hardware on shoulder strap adjusters and D-rings. A timeless football backpack that pairs with any kit colour. Capacity: 28–32 Litres. Dimensions: 50 × 32 × 22 cm.',
+  name: 'Stealth Edition Black Minimalist Premium Football Backpack with YKK Zippers & Brass Hardware',
+  description: 'The Stealth Edition is built for the player who lets their game do the talking. This all-black minimalist football backpack strips away distraction and delivers pure functionality in a clean, professional silhouette. Constructed from heavy-duty Cordura nylon with a smooth matte finish, reinforced load-bearing seams, and a padded back panel for all-day carry comfort. The structured main compartment holds a full match kit including boots and accessories, with a front organisation pocket for smaller items. All access points are sealed by YKK zippers for dependable performance in any conditions. Interior fully lined in premium cotton fabric. Solid brass hardware on shoulder strap adjusters and D-rings. A timeless football backpack that pairs with any kit colour. Capacity: 28–32 Litres. Dimensions: 50 × 32 × 22 cm.',
   category: 'sports-bags',
   featured: false,
   images: [
@@ -916,8 +916,8 @@ const PRODUCTS = [
 },
 {
   id: 86,
-  name: 'Captain\'s Navy Structured Top-Grain Cowhide Leather Football Backpack with Padded Carry System',
-  description: 'The Captain\'s Navy is a sharp, professional-grade navy blue football backpack designed for the player who values structure and organisation above everything. Crafted from top-grain cowhide leather with a semi-rigid outer shell that holds its shape whether packed or empty. The padded ergonomic back panel and contoured shoulder straps with brass hardware adjusters deliver all-day carry comfort during pre-match travel and training commutes. A large main compartment organises full kit, boots, and personal items, with front and side zip pockets for fast access to essentials. All zippers are YKK rated for heavy daily use. Interior fully lined in premium cotton fabric for clean, protected storage. Solid brass hardware throughout. Capacity: 30–35 Litres. Dimensions: 52 × 33 × 24 cm.',
+  name: 'Captain\'s Navy Structured Premium Football Backpack with Padded Carry System & YKK Zippers',
+  description: 'The Captain\'s Navy is a sharp, professional-grade navy blue football backpack designed for the player who values structure and organisation above everything. Constructed from heavy-duty Cordura nylon with a semi-rigid outer shell that holds its shape whether packed or empty. The padded ergonomic back panel and contoured shoulder straps with brass hardware adjusters deliver all-day carry comfort during pre-match travel and training commutes. A large main compartment organises full kit, boots, and personal items, with front and side zip pockets for fast access to essentials. All zippers are YKK rated for heavy daily use. Interior fully lined in premium cotton fabric for clean, protected storage. Solid brass hardware throughout. Capacity: 30–35 Litres. Dimensions: 52 × 33 × 24 cm.',
   category: 'sports-bags',
   featured: false,
   images: [
@@ -929,8 +929,8 @@ const PRODUCTS = [
 },
 {
   id: 87,
-  name: 'Prestige Grey Marl Premium Top-Grain Cowhide Leather Football Duffle Bag with YKK Zippers',
-  description: 'The Prestige Grey Marl is an elevated football duffle bag that brings a refined, luxury-sport aesthetic to everyday training. Crafted from top-grain cowhide leather with a distinctive heathered grey texture, this bag stands out from standard black and navy alternatives without sacrificing a clean, versatile look. The wide main compartment provides generous room for a full match kit, boots, and accessories, while end-zip pockets with YKK zippers offer quick, organised access. Dual top handles with solid brass hardware rings allow easy carry, and a removable padded shoulder strap provides hands-free flexibility. Reinforced base panel with rubber feet keeps the bag protected on wet changing room floors. Interior fully lined in premium cotton fabric. Solid brass hardware throughout. Capacity: 40–45 Litres. Dimensions: 60 × 30 × 30 cm.',
+  name: 'Prestige Grey Marl Premium Football Duffle Bag with YKK Zippers & Brass Hardware',
+  description: 'The Prestige Grey Marl is an elevated football duffle bag that brings a refined, luxury-sport aesthetic to everyday training. Built from premium heathered grey polyester with a distinctive marl texture, this bag stands out from standard black and navy alternatives without sacrificing a clean, versatile look. The wide main compartment provides generous room for a full match kit, boots, and accessories, while end-zip pockets with YKK zippers offer quick, organised access. Dual top handles with solid brass hardware rings allow easy carry, and a removable padded shoulder strap provides hands-free flexibility. Reinforced base panel with rubber feet keeps the bag protected on wet changing room floors. Interior fully lined in premium cotton fabric. Solid brass hardware throughout. Capacity: 40–45 Litres. Dimensions: 60 × 30 × 30 cm.',
   category: 'sports-bags',
   featured: false,
   images: [
@@ -942,8 +942,8 @@ const PRODUCTS = [
 },
 {
   id: 88,
-  name: 'Emerald Luxe Geometric Quilted Top-Grain Cowhide Leather Football Tote Bag with Brass Hardware',
-  description: 'The Emerald Luxe is the football bag that refuses to look like one. This striking teal-green geometric quilted tote bag is crafted from top-grain cowhide leather with a bold raised diamond pattern that gives the bag a fashion-forward identity suited for players who carry their style as confidently as their skills. Wide leather-wrapped top handles with solid brass hardware rings allow elegant shoulder carry, while the open-top main compartment provides fast, unrestricted access to kit. Internal zip pockets with YKK zippers keep valuables and accessories organised and secure inside the spacious main body. Side slip pockets provide additional fast-access storage. Interior fully lined in premium cotton fabric. Solid brass hardware on all handle attachments and ring connectors. Capacity: 35–40 Litres. Dimensions: 55 × 30 × 28 cm.',
+  name: 'Emerald Luxe Geometric Quilted Premium Football Tote Bag with Brass Hardware & YKK Zippers',
+  description: 'The Emerald Luxe is the football bag that refuses to look like one. This striking teal-green geometric quilted tote bag is constructed from premium quilted polyester fabric with a bold raised diamond pattern that gives the bag a fashion-forward identity suited for players who carry their style as confidently as their skills. Wide padded top handles with solid brass hardware rings allow elegant shoulder carry, while the open-top main compartment provides fast, unrestricted access to kit. Internal zip pockets with YKK zippers keep valuables and accessories organised and secure inside the spacious main body. Side slip pockets provide additional fast-access storage. Interior fully lined in premium cotton fabric. Solid brass hardware on all handle attachments and ring connectors. Capacity: 35–40 Litres. Dimensions: 55 × 30 × 28 cm.',
   category: 'sports-bags',
   featured: false,
   images: [
@@ -955,8 +955,8 @@ const PRODUCTS = [
 },
 {
   id: 89,
-  name: 'Reactor Black & Neon Green Top-Grain Cowhide Leather Football Backpack with Ball Holder & Bottle Pocket',
-  description: 'The Reactor is a fully loaded black and neon green football backpack built for players who carry everything — ball, boots, kit, and hydration — in one organised, go-anywhere pack. Constructed from top-grain cowhide leather with reinforced stress points and a ventilated padded back panel for all-day comfort. The external elastic ball net securely holds a full-size football on the outside of the bag, freeing up the entire main compartment for a complete training kit. A wide-mouth side mesh bottle pocket keeps a water bottle accessible at all times, while a front YKK-zip organiser pocket manages smaller essentials. Neon green contrast on straps, zippers, and trim keeps this bag instantly visible in busy training environments. Interior fully lined in premium cotton fabric. Solid brass hardware throughout. Capacity: 32–36 Litres. Dimensions: 55 × 35 × 25 cm.',
+  name: 'Reactor Black & Neon Green Premium Football Backpack with Ball Holder & Bottle Pocket',
+  description: 'The Reactor is a fully loaded black and neon green football backpack built for players who carry everything — ball, boots, kit, and hydration — in one organised, go-anywhere pack. Constructed from heavy-duty Cordura nylon with reinforced stress points and a ventilated padded back panel for all-day comfort. The external elastic ball net securely holds a full-size football on the outside of the bag, freeing up the entire main compartment for a complete training kit. A wide-mouth side mesh bottle pocket keeps a water bottle accessible at all times, while a front YKK-zip organiser pocket manages smaller essentials. Neon green contrast on straps, zippers, and trim keeps this bag instantly visible in busy training environments. Interior fully lined in premium cotton fabric. Solid brass hardware throughout. Capacity: 32–36 Litres. Dimensions: 55 × 35 × 25 cm.',
   category: 'sports-bags',
   featured: false,
   images: [
@@ -968,8 +968,8 @@ const PRODUCTS = [
 },
 {
   id: 90,
-  name: 'Primera Black Premium Top-Grain Cowhide Leather Football Duffle Bag with Ventilated Boot Compartment',
-  description: 'Clean, durable, and competition-ready — the Primera is a full-size black football duffle bag designed for serious club and academy players. Crafted from top-grain cowhide leather with a smooth matte finish, reinforced double-stitched seams, and a structured base for stable floor standing. The large main compartment holds a complete match kit, while a ventilated lower boot compartment keeps footwear isolated from fresh clothing and accessories. Dual top carry handles with solid brass D-ring hardware provide a secure grip, and a removable padded shoulder strap enables comfortable cross-body carry. All pockets and compartments are sealed with YKK zippers for smooth, high-cycle access. Interior fully lined in premium cotton fabric. Solid brass hardware on all closures and strap hardware. Capacity: 45–50 Litres. Dimensions: 63 × 32 × 30 cm.',
+  name: 'Primera Black Premium Football Duffle Bag with Ventilated Boot Compartment & YKK Zippers',
+  description: 'Clean, durable, and competition-ready — the Primera is a full-size black football duffle bag designed for serious club and academy players. Constructed from heavy-duty Cordura nylon with a smooth matte finish, reinforced double-stitched seams, and a structured base for stable floor standing. The large main compartment holds a complete match kit, while a ventilated lower boot compartment keeps footwear isolated from fresh clothing and accessories. Dual top carry handles with solid brass D-ring hardware provide a secure grip, and a removable padded shoulder strap enables comfortable cross-body carry. All pockets and compartments are sealed with YKK zippers for smooth, high-cycle access. Interior fully lined in premium cotton fabric. Solid brass hardware on all closures and strap hardware. Capacity: 45–50 Litres. Dimensions: 63 × 32 × 30 cm.',
   category: 'sports-bags',
   featured: false,
   images: [
@@ -981,8 +981,8 @@ const PRODUCTS = [
 },
 {
   id: 91,
-  name: 'Courtcraft Black Premium Top-Grain Cowhide Leather Tennis Crossbody Bag with YKK Zippers',
-  description: 'The Courtcraft is a slim, sophisticated black tennis crossbody bag engineered for players who travel light and arrive organised. Crafted from top-grain cowhide leather with a clean, structured silhouette, this messenger-style bag holds one to two tennis racquets along with balls, wristbands, and court accessories in a compact, easy-carry format. The main racquet compartment features a padded interior lining in premium cotton fabric to protect frames from vibration and scratching. A front organisation pocket with YKK zipper keeps keys, phone, and small gear accessible. The adjustable brass-hardware shoulder strap allows precise length adjustment for cross-body or single-shoulder carry. Ideal for club sessions, recreational play, or light tournament travel where a full kit bag is not required. Solid brass hardware throughout. Capacity: 15–18 Litres. Dimensions: 75 × 28 × 12 cm.',
+  name: 'Courtcraft Black Premium Tennis Crossbody Bag with YKK Zippers & Brass Hardware',
+  description: 'The Courtcraft is a slim, sophisticated black tennis crossbody bag engineered for players who travel light and arrive organised. Built from premium Cordura nylon with a clean, structured silhouette, this messenger-style bag holds one to two tennis racquets along with balls, wristbands, and court accessories in a compact, easy-carry format. The main racquet compartment features a padded interior lining in premium cotton fabric to protect frames from vibration and scratching. A front organisation pocket with YKK zipper keeps keys, phone, and small gear accessible. The adjustable brass-hardware shoulder strap allows precise length adjustment for cross-body or single-shoulder carry. Ideal for club sessions, recreational play, or light tournament travel. Solid brass hardware throughout. Capacity: 15–18 Litres. Dimensions: 75 × 28 × 12 cm.',
   category: 'sports-bags',
   featured: false,
   images: [
@@ -994,8 +994,8 @@ const PRODUCTS = [
 },
 {
   id: 92,
-  name: 'Wimbledon Heritage Cream & Green Stripe Top-Grain Cowhide Leather Tennis Racquet Bag',
-  description: 'The Wimbledon Heritage is a classically inspired cream and forest green stripe tennis racquet bag that pays homage to the great traditions of the sport. Crafted from top-grain cowhide leather with a flat, structured silhouette and bold green stripe detailing, this bag channels the timeless grass-court aesthetic loved by club players and enthusiasts alike. Holds up to three full-size tennis racquets in a padded main compartment lined with premium cotton fabric to protect frames at all times. A front zip pocket with YKK zipper stores balls, grips, and small accessories. Leather-wrapped handles with solid brass hardware rings allow comfortable top-carry, while an adjustable shoulder strap offers cross-body convenience. The cream leather exterior develops a beautiful natural patina over time. Solid brass hardware throughout. Capacity: 3-racquet. Dimensions: 76 × 30 × 12 cm.',
+  name: 'Wimbledon Heritage Cream & Green Stripe Premium Tennis Racquet Bag with Brass Hardware',
+  description: 'The Wimbledon Heritage is a classically inspired cream and forest green stripe tennis racquet bag that pays homage to the great traditions of the sport. Constructed from premium canvas-effect polyester fabric with a flat, structured silhouette and bold green stripe detailing, this bag channels the timeless grass-court aesthetic loved by club players and enthusiasts alike. Holds up to three full-size tennis racquets in a padded main compartment lined with premium cotton fabric to protect frames at all times. A front zip pocket with YKK zipper stores balls, grips, and small accessories. Padded top handles with solid brass hardware rings allow comfortable carry, while an adjustable shoulder strap offers cross-body convenience. Solid brass hardware throughout. Capacity: 3-racquet. Dimensions: 76 × 30 × 12 cm.',
   category: 'sports-bags',
   featured: false,
   images: [
@@ -1007,8 +1007,8 @@ const PRODUCTS = [
 },
 {
   id: 93,
-  name: 'Baseline Pro Black Premium Top-Grain Cowhide Leather Tennis Duffle Racquet Bag with YKK Zippers',
-  description: 'The Baseline Pro is a full-size black tennis duffle bag built for the touring or tournament player who needs to carry racquets, footwear, clothing, and accessories in one high-quality, organised pack. Crafted from top-grain cowhide leather with a structured wide-body duffle format and reinforced double-stitched seams throughout. The main compartment accommodates up to six racquets alongside court shoes and a full change of clothing. A dedicated end-zip accessory pocket with YKK zipper keeps balls, grips, sweatbands, and small gear neatly separated. Dual top handles with solid brass hardware rings for easy carry, with a removable padded shoulder strap for hands-free transport between courts. Interior fully lined in premium cotton fabric. All zippers are YKK for smooth, heavy-use reliability. Solid brass hardware throughout. Capacity: 6-racquet / 45–50 Litres. Dimensions: 76 × 33 × 33 cm.',
+  name: 'Baseline Pro Black Premium Tennis Duffle Racquet Bag with YKK Zippers & Brass Hardware',
+  description: 'The Baseline Pro is a full-size black tennis duffle bag built for the touring or tournament player who needs to carry racquets, footwear, clothing, and accessories in one high-quality, organised pack. Constructed from heavy-duty Cordura nylon with a structured wide-body duffle format and reinforced double-stitched seams throughout. The main compartment accommodates up to six racquets alongside court shoes and a full change of clothing. A dedicated end-zip accessory pocket with YKK zipper keeps balls, grips, sweatbands, and small gear neatly separated. Dual top handles with solid brass hardware rings for easy carry, with a removable padded shoulder strap for hands-free transport between courts. Interior fully lined in premium cotton fabric. All zippers are YKK for smooth, heavy-use reliability. Solid brass hardware throughout. Capacity: 6-racquet / 45–50 Litres. Dimensions: 76 × 33 × 33 cm.',
   category: 'sports-bags',
   featured: false,
   images: [
@@ -1020,8 +1020,8 @@ const PRODUCTS = [
 },
 {
   id: 94,
-  name: 'Ace Purple & Pink Premium Top-Grain Cowhide Leather Tennis Backpack with Racquet Sleeve & YKK Zippers',
-  description: 'The Ace is a bold purple and pink tennis backpack designed for the player who brings personality to every court. Crafted from top-grain cowhide leather with vibrant two-tone colourblocking and reinforced ergonomic shoulder straps for comfortable all-day carry. A dedicated side racquet sleeve holds one to two full-size racquets externally, keeping them accessible without opening the main bag. The main compartment stores court shoes, a full change of clothing, and personal accessories with ease. A front YKK-zip organiser pocket manages balls, grips, and smaller essentials, while side mesh pockets keep a water bottle within reach. Interior fully lined in premium cotton fabric throughout. Solid brass hardware on all strap adjusters and attachment points. A standout bag for the confident, style-conscious player. Capacity: 25–28 Litres. Dimensions: 50 × 32 × 22 cm.',
+  name: 'Ace Purple & Pink Premium Tennis Backpack with Racquet Sleeve & YKK Zippers',
+  description: 'The Ace is a bold purple and pink tennis backpack designed for the player who brings personality to every court. Built from heavy-duty Cordura nylon with vibrant two-tone colour blocking and reinforced ergonomic shoulder straps for comfortable all-day carry. A dedicated side racquet sleeve holds one to two full-size racquets externally, keeping them accessible without opening the main bag. The main compartment stores court shoes, a full change of clothing, and personal accessories with ease. A front YKK-zip organiser pocket manages balls, grips, and smaller essentials, while side mesh pockets keep a water bottle within reach. Interior fully lined in premium cotton fabric throughout. Solid brass hardware on all strap adjusters and attachment points. Capacity: 25–28 Litres. Dimensions: 50 × 32 × 22 cm.',
   category: 'sports-bags',
   featured: false,
   images: [
@@ -1033,8 +1033,8 @@ const PRODUCTS = [
 },
 {
   id: 95,
-  name: 'Sorrento Tan & Brown Top-Grain Cowhide Leather Tennis Sling Backpack with YKK Zippers',
-  description: 'The Sorrento is a refined Italian-inspired tennis sling backpack crafted from top-grain cowhide leather in a warm two-tone tan and brown colourway. The teardrop silhouette is both visually distinctive and ergonomically optimised — the curved body sits naturally against the back for balanced single-strap or cross-body carry. A padded main compartment holds one to two tennis racquets alongside balls, a change of clothing, and court accessories, all protected by a premium cotton fabric interior lining that prevents frame scratching. The front zip pocket with YKK zipper organises keys, wallet, and smaller essentials, while exterior slip pockets provide quick no-zip access. All closures use YKK zippers for dependable, smooth-glide performance. Solid brass hardware on all strap adjusters and D-rings. The leather develops a rich natural patina with use. Capacity: 18–22 Litres. Dimensions: 50 × 30 × 15 cm.',
+  name: 'Sorrento Tan & Brown Premium Tennis Sling Backpack with YKK Zippers & Brass Hardware',
+  description: 'The Sorrento is a refined Italian-inspired tennis sling backpack in a warm two-tone tan and brown colourway, constructed from premium polyester with a smooth, structured finish. The teardrop silhouette is both visually distinctive and ergonomically optimised — the curved body sits naturally against the back for balanced single-strap or cross-body carry. A padded main compartment holds one to two tennis racquets alongside balls, a change of clothing, and court accessories, all protected by a premium cotton fabric interior lining. The front zip pocket with YKK zipper organises keys, wallet, and smaller essentials, while exterior slip pockets provide quick no-zip access. All closures use YKK zippers for dependable, smooth-glide performance. Solid brass hardware on all strap adjusters and D-rings. Capacity: 18–22 Litres. Dimensions: 50 × 30 × 15 cm.',
   category: 'sports-bags',
   featured: false,
   images: [
@@ -1046,8 +1046,8 @@ const PRODUCTS = [
 },
 {
   id: 96,
-  name: 'Club Series White Premium Top-Grain Cowhide Leather Tennis Duffle Bag with Black Contrast Handles',
-  description: 'The Club Series is a clean, sporty white tennis duffle bag that brings a crisp, tournament-ready aesthetic to every court session. Crafted from top-grain cowhide leather with a structured wide-body duffle format and bold black contrast handles that give the bag a sharp, athletic identity. The spacious main compartment holds up to six racquets alongside court shoes, clothing, and accessories, with end-zip pockets secured by YKK zippers for organised, fast access to balls, grips, and smaller gear. Dual top handles with solid brass hardware D-rings allow confident two-hand carry, while a removable padded shoulder strap provides comfortable hands-free transport between courts. Reinforced base panel protects the bag on wet changing room floors. Interior fully lined in premium cotton fabric. Solid brass hardware throughout. A versatile bag equally suited to club play and competitive tournament travel. Capacity: 45–50 Litres. Dimensions: 76 × 33 × 33 cm.',
+  name: 'Club Series White Premium Tennis Duffle Bag with Black Contrast Handles & YKK Zippers',
+  description: 'The Club Series is a clean, sporty white tennis duffle bag that brings a crisp, tournament-ready aesthetic to every court session. Constructed from heavy-duty Cordura nylon with a structured wide-body duffle format and bold black contrast handles that give the bag a sharp, athletic identity. The spacious main compartment holds up to six racquets alongside court shoes, clothing, and accessories, with end-zip pockets secured by YKK zippers for organised, fast access to balls, grips, and smaller gear. Dual top handles with solid brass hardware D-rings allow confident two-hand carry, while a removable padded shoulder strap provides comfortable hands-free transport between courts. Reinforced base panel protects the bag on wet changing room floors. Interior fully lined in premium cotton fabric. Solid brass hardware throughout. Capacity: 45–50 Litres. Dimensions: 76 × 33 × 33 cm.',
   category: 'sports-bags',
   featured: false,
   images: [
@@ -1059,8 +1059,8 @@ const PRODUCTS = [
 },
 {
   id: 97,
-  name: 'Grand Tour Cognac Premium Top-Grain Cowhide Leather 3-Racquet Tennis Bag with Brass Hardware',
-  description: 'The Grand Tour Cognac is a classically proportioned 3-racquet tennis bag crafted from top-grain cowhide leather in a warm cognac tan — a timeless choice for the discerning club and competitive player. The structured horizontal silhouette is the gold standard format for racquet bags, offering a perfect balance of portability and carrying capacity. The padded main compartment holds up to three full-size racquets in a premium cotton fabric lined interior that protects frames from contact damage. A front zip pocket with YKK zipper provides organised storage for balls, wristbands, grips, and small accessories. Leather-wrapped top handle with solid brass hardware rings allows easy one-hand carry, while the adjustable padded shoulder strap enables comfortable hands-free transport. The cognac leather will develop a characterful patina over time. Solid brass hardware throughout. Capacity: 3-racquet. Dimensions: 76 × 30 × 20 cm.',
+  name: 'Grand Tour Cognac Premium 3-Racquet Tennis Bag with Brass Hardware & YKK Zipper',
+  description: 'The Grand Tour Cognac is a classically proportioned 3-racquet tennis bag in a warm cognac tan — a timeless choice for the discerning club and competitive player. Constructed from premium structured polyester with a smooth finish, the horizontal silhouette is the gold standard format for racquet bags, offering a perfect balance of portability and carrying capacity. The padded main compartment holds up to three full-size racquets in a premium cotton fabric lined interior that protects frames from contact damage. A front zip pocket with YKK zipper provides organised storage for balls, wristbands, grips, and small accessories. Padded top handle with solid brass hardware rings allows easy one-hand carry, while the adjustable padded shoulder strap enables comfortable hands-free transport. Solid brass hardware throughout. Capacity: 3-racquet. Dimensions: 76 × 30 × 20 cm.',
   category: 'sports-bags',
   featured: false,
   images: [
@@ -1072,8 +1072,8 @@ const PRODUCTS = [
 },
 {
   id: 98,
-  name: 'Ivory Slim Minimal Top-Grain Cowhide Leather Tennis Racquet Sleeve Bag with YKK Zipper',
-  description: 'The Ivory Slim is a beautifully restrained tennis racquet sleeve for the minimalist player who carries only what is essential. Crafted from top-grain cowhide leather in a clean cream ivory, this slim flat-profile bag holds one to two full-size racquets in a precisely tailored interior lined with premium cotton fabric for full-surface frame protection. The single full-length YKK zipper runs cleanly along the top edge for easy racquet insertion and removal. A compact front slip pocket provides space for a small personal item. The leather-wrapped top handle with solid brass hardware allows easy hand-carry, while the adjustable shoulder strap with brass adjuster offers comfortable cross-body carry to and from the court. A pure, unfussy design that lets the leather quality speak for itself. The ivory hide develops a warm natural patina over time. Capacity: 1–2 racquets. Dimensions: 76 × 28 × 8 cm.',
+  name: 'Ivory Slim Minimal Premium Tennis Racquet Sleeve Bag with YKK Zipper & Brass Hardware',
+  description: 'The Ivory Slim is a beautifully restrained tennis racquet sleeve for the minimalist player who carries only what is essential. Constructed from premium smooth polyester in a clean cream ivory, this slim flat-profile bag holds one to two full-size racquets in a precisely tailored interior lined with premium cotton fabric for full-surface frame protection. The single full-length YKK zipper runs cleanly along the top edge for easy racquet insertion and removal. A compact front slip pocket provides space for a small personal item. The padded top handle with solid brass hardware allows easy hand-carry, while the adjustable shoulder strap with brass adjuster offers comfortable cross-body carry to and from the court. A pure, unfussy design built around function. Capacity: 1–2 racquets. Dimensions: 76 × 28 × 8 cm.',
   category: 'sports-bags',
   featured: false,
   images: [
@@ -1085,8 +1085,8 @@ const PRODUCTS = [
 },
 {
   id: 99,
-  name: 'Lune Cream Structured Top-Grain Cowhide Leather Tennis Racquet Bag with Gold Brass Hardware',
-  description: 'The Lune is an elegantly structured cream tennis racquet bag that brings luxury fashion sensibility to the court. Crafted from top-grain cowhide leather with a smooth, clean ivory finish and a gently moulded hard-shell profile that protects racquets from external impact during travel and transit. The wide-mouth main compartment holds up to three full-size racquets in a spacious interior fully lined with premium cotton fabric. Gold-finish solid brass hardware on the top handle rings, zipper pulls, and shoulder strap connectors adds a refined, premium detail that elevates this bag well above standard court bags. The front YKK-zip pocket provides organised storage for balls, grips, and accessories. The leather-wrapped top handle allows elegant single-hand carry, with an adjustable padded shoulder strap for longer distances. A statement bag for the player who values craftsmanship as much as performance. Capacity: 3-racquet. Dimensions: 76 × 32 × 18 cm.',
+  name: 'Lune Cream Structured Premium Tennis Racquet Bag with Gold Brass Hardware & YKK Zippers',
+  description: 'The Lune is an elegantly structured cream tennis racquet bag that brings luxury fashion sensibility to the court. Constructed from premium smooth polyester with a clean ivory finish and a gently moulded semi-rigid profile that protects racquets from external impact during travel and transit. The wide-mouth main compartment holds up to three full-size racquets in a spacious interior fully lined with premium cotton fabric. Gold-finish solid brass hardware on the top handle rings, zipper pulls, and shoulder strap connectors adds a refined, premium detail that elevates this bag well above standard court bags. The front YKK-zip pocket provides organised storage for balls, grips, and accessories. A statement bag for the player who values design as much as performance. Capacity: 3-racquet. Dimensions: 76 × 32 × 18 cm.',
   category: 'sports-bags',
   featured: false,
   images: [
@@ -1098,8 +1098,8 @@ const PRODUCTS = [
 },
 {
   id: 100,
-  name: 'Veloce Cognac & Navy Top-Grain Cowhide Leather Tennis Duffle Bag with Circle Detail & YKK Zippers',
-  description: 'The Veloce is a bold, design-forward cognac brown tennis duffle bag that combines Italian sporting heritage with premium leather craftsmanship. Crafted from top-grain cowhide leather in a rich warm cognac, the bag features a distinctive navy blue circular appliqué detail on the front panel — a signature design element that gives this bag an immediately recognisable, premium identity. The wide-body duffle format comfortably holds up to six racquets alongside court shoes, full clothing, and accessories. End-zip and front-access pockets with YKK zippers provide fast, organised retrieval of balls, grips, and smaller items. Dual leather-wrapped top handles with solid brass hardware D-rings allow secure two-hand carry, while a removable padded shoulder strap offers flexible hands-free transport. Interior fully lined in premium cotton fabric throughout. Solid brass hardware on all closures, handles, and adjustments. The cognac leather develops a rich patina over time. Capacity: 6-racquet / 45–50 Litres. Dimensions: 76 × 33 × 33 cm.',
+  name: 'Veloce Cognac & Navy Premium Tennis Duffle Bag with Circle Detail & YKK Zippers',
+  description: 'The Veloce is a bold, design-forward cognac brown tennis duffle bag that combines Italian sporting heritage with premium construction. Built from high-quality structured polyester in a rich warm cognac, the bag features a distinctive navy blue circular appliqué detail on the front panel — a signature design element that gives this bag an immediately recognisable, premium identity. The wide-body duffle format comfortably holds up to six racquets alongside court shoes, full clothing, and accessories. End-zip and front-access pockets with YKK zippers provide fast, organised retrieval of balls, grips, and smaller items. Dual padded top handles with solid brass hardware D-rings allow secure two-hand carry, while a removable padded shoulder strap offers flexible hands-free transport. Interior fully lined in premium cotton fabric throughout. Solid brass hardware on all closures, handles, and adjustments. Capacity: 6-racquet / 45–50 Litres. Dimensions: 76 × 33 × 33 cm.',
   category: 'sports-bags',
   featured: false,
   images: [
@@ -2060,4 +2060,4 @@ document.getElementById('product-modal-backdrop')?.addEventListener('click', fun
 // Close on Escape key
 document.addEventListener('keydown', e => {
   if (e.key === 'Escape') closeProductModal();
-}); 
+});
