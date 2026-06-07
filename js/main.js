@@ -282,7 +282,7 @@ const PRODUCTS = [
   featured: false,
   images: [
     { src: 'img/Cross body bags/P(12.1)front.jpeg.png', label: 'Front' },
-    { src: 'img/Cross body bags/P(12.2)back.jpeg.png',  label: 'Back'  },
+    { src: 'img/Cross body bags/P(12.2)top.jpeg.png',  label: 'Top'  },
     { src: 'img/Cross body bags/P(12.3)side.jpeg.png',  label: 'Side'  },
     { src: 'img/Cross body bags/P(12.4)inner.jpeg.png', label: 'Inner' },
   ]
@@ -387,7 +387,6 @@ const PRODUCTS = [
   images: [
     { src: 'img/Business bags/P(8.1)front.jpeg', label: 'Front' },
     { src: 'img/Business bags/P(8.2)side.jpeg',  label: 'Side'  },
-    { src: 'img/Business bags/P(8.3)top.jpeg',   label: 'Top'   },
     { src: 'img/Business bags/P(8.4)inner.jpeg', label: 'Inner' },
   ]
 },
