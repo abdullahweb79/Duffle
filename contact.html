@@ -342,7 +342,7 @@
           method="POST"
           aria-label="Wholesale leather bag inquiry form"
         >
-          <input type="hidden" name="_redirect" value="thanks.html">
+         
 
           <div class="dc-row">
             <div class="form-group">
@@ -484,6 +484,12 @@
 </footer>
 
 <script src="js/main.js"></script>
-
+<script>
+document.getElementById("contactForm").addEventListener("submit", function () {
+  setTimeout(() => {
+    window.location.href = "thanks.html";
+  }, 500);
+});
+</script>
 </body>
 </html>
